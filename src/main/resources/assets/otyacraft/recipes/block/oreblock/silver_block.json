@@ -1,0 +1,18 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:silver_block",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+"key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSilver"
+    }
+  },
+  "result": {
+    "item": "otyacraft:silver_block"
+  }
+}

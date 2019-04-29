@@ -1,0 +1,22 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:silver_gear",
+  "pattern": [
+    "INI",
+    "N N",
+    "INI"
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "nuggetSilver"
+    },
+    "N": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSilver"
+    }
+  },
+  "result": {
+    "item": "otyacraft:silver_gear"
+  }
+}

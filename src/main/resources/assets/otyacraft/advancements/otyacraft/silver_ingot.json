@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:silver_ingot"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.silveringot.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.silveringot.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/next_pickel",
+    "criteria": {
+        "otya": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:silver_ingot"
+                    }
+                ]
+            }
+        }
+    },
+        "rewards": {
+        "recipes": [
+        "otyacraft:item/gear/silver_gear",
+        "otyacraft:item/tool/silver_sword",
+        "otyacraft:item/tool/silver_shovel",
+        "otyacraft:item/tool/silver_pickaxe",
+        "otyacraft:item/tool/silver_hoe",
+        "otyacraft:item/tool/silver_axe",
+        "otyacraft:item/armor/silver_boots",
+        "otyacraft:item/armor/silver_chestplate",
+        "otyacraft:item/armor/silver_helmet",
+        "otyacraft:item/armor/silver_leggings",
+        "otyacraft:item/nugget/silver_nugget",
+        "otyacraft:item/gear/silver_gear",
+        "otyacraft:block/oreblock/silver_block"
+        ]
+    }
+}

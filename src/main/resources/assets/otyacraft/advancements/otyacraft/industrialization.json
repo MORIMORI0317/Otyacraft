@@ -1,0 +1,97 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:iron_gear"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.industrialization.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.industrialization.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/you_burn_it",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:iron_gear"
+                    }
+                ]
+            }
+        },
+        "copper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:copper_gear"
+                    }
+                ]
+            }
+        },
+        "tin": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:tin_gear"
+                    }
+                ]
+            }
+        },
+        "silver": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:silver_gear"
+                    }
+                ]
+            }
+        },
+        "centerl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:centerl_gear"
+                    }
+                ]
+            }
+        },
+        "nickel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:nickel_gear"
+                    }
+                ]
+            }
+        },
+        "lead": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:lead_gear"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "iron",
+            "copper",
+            "silver",
+            "nickel",
+            "centerl",
+            "tin",
+            "lead"
+        ]
+    ]
+}

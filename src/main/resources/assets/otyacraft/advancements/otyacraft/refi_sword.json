@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:refi_sword"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.refisword.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.refisword.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/more_pickel",
+    "criteria": {
+        "otya": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:refi_sword"
+                    }
+                ]
+            }
+        }
+    }
+}

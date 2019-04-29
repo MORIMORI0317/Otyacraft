@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:factory_block",
+  "pattern": [
+    " I ",
+    "IJI",
+    " I "
+  ],
+"key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "J": {
+      "type": "forge:ore_dict",
+      "ore": "gearCopper"
+    }
+  },
+  "result": {
+    "item": "otyacraft:copper_factory_block",
+    "count": 64
+  }
+}

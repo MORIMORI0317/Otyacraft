@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:tea_cup",
+  "pattern": [
+    "S S",
+    " S "
+  ],
+"key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSecondgrilledbrick"
+    }
+  },
+  "result": {
+    "item": "otyacraft:tea_cup"
+  }
+}

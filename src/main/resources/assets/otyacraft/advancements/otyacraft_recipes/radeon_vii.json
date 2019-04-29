@@ -1,0 +1,20 @@
+{
+    "parent": "otyacraft:otyacraft_recipes/root",
+    "criteria": {
+        "iron_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:iron_gear"
+                    }
+                ]
+            }
+
+        }
+        
+    },
+    "rewards": {
+        "recipes": ["otyacraft:item/other/radeon_vii"]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:centerl_ingot"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.centerlingot.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.centerlingot.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/next_pickel",
+    "criteria": {
+        "otya": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:centerl_ingot"
+                    }
+                ]
+            }
+        }
+    },
+        "rewards": {
+        "recipes": [
+        "otyacraft:item/gear/centerl_gear",
+        "otyacraft:item/tool/centerl_sword",
+        "otyacraft:item/tool/centerl_shovel",
+        "otyacraft:item/tool/centerl_pickaxe",
+        "otyacraft:item/tool/centerl_hoe",
+        "otyacraft:item/tool/centerl_axe",
+        "otyacraft:item/armor/centerl_boots",
+        "otyacraft:item/armor/centerl_chestplate",
+        "otyacraft:item/armor/centerl_helmet",
+        "otyacraft:item/armor/centerl_leggings",
+        "otyacraft:item/nugget/centerl_nugget",
+        "otyacraft:item/gear/centerl_gear",
+        "otyacraft:block/oreblock/centerl_block"
+        ]
+    }
+}

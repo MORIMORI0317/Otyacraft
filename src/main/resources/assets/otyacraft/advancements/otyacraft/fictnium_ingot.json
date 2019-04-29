@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:fictnium_ingot"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.fictniumingot.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.fictniumingot.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/more_pickel",
+    "criteria": {
+        "otya": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:fictnium_ingot"
+                    }
+                ]
+            }
+        }
+    },
+        "rewards": {
+        "recipes": [
+        "otyacraft:item/tool/refi_sword",
+        "otyacraft:block/oreblock/fictnium_block"
+        ]
+    }
+}

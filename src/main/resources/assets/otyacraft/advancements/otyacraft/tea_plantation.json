@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:tea_seed"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.teaplantation.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.teaplantation.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/hello_otyacraft",
+    "criteria": {
+        "seed": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "otyacraft:tea_crop"
+            }
+        }
+    }
+}

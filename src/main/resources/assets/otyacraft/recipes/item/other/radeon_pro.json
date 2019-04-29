@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:radeon",
+  "pattern": [
+    "DDD",
+    "DRD",
+    "DDD"
+  ],
+"key": {
+    "D": {
+      "type": "forge:ore_dict",
+      "ore": "blockDiamond"
+    },
+    "R": {
+      "item": "otyacraft:radeon",
+      "data": 0
+    } 
+  },
+  "result": {
+      "item": "otyacraft:radeon",
+    "data": 1
+  }
+}

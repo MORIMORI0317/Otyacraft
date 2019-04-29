@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:radeon"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.iwantgoodgpu.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.iwantgoodgpu.description"
+        },
+        "frame": "goal",
+        "hidden": true
+    },
+    "parent": "otyacraft:otyacraft/industrialization",
+    "rewards": {
+        "experience": 100
+    },
+    "criteria": {
+        "otya": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:radeon",
+                        "data": 0
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["otyacraft:item/other/radeon_pro"]
+    }
+    
+}

@@ -1,0 +1,18 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:nickel_block",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+"key": {
+    "N": {
+      "type": "forge:ore_dict",
+      "ore": "ingotNickel"
+    }
+  },
+  "result": {
+    "item": "otyacraft:nickel_block"
+  }
+}

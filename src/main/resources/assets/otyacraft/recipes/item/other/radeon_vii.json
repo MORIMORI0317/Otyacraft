@@ -1,0 +1,36 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:radeon",
+  "pattern": [
+    "FPR",
+    "III",
+    "FGG"
+  ],
+"key": {
+    "F": {
+      "type": "forge:ore_dict",
+      "ore": "ingotFictnium"
+    },
+    "R": {
+      "type": "forge:ore_dict",
+      "ore": "gemRuby"
+    },
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "gearIron"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "nuggetGold"
+    },
+    "P": {
+      "type": "forge:ore_dict",
+      "ore": "ingotPermafrost"
+    }
+  },
+  "result": {
+    "item": "otyacraft:radeon",
+    "data": 0
+    
+  }
+}

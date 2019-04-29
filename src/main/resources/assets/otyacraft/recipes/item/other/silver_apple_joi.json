@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:silver_apple",
+  "pattern": [
+    "III",
+    "IJI",
+    "III"
+  ],
+"key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "blockSilver"
+    },
+    "J": {
+      "item": "minecraft:apple",
+      "data": 0
+    } 
+  },
+  "result": {
+    "item": "otyacraft:silver_apple",
+    "data": 1
+  }
+}

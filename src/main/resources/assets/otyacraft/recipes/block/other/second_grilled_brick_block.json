@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:second_grilled_brick_block",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+"key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSecondgrilledbrick"
+    }
+  },
+  "result": {
+    "item": "otyacraft:second_grilled_brick_block"
+  }
+}

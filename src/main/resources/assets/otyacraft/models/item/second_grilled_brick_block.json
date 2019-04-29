@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "otyacraft:blocks/second_grilled_brick_block"
+    }
+}

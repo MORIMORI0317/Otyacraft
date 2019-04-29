@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:centerl_ingot",
+  "pattern": [
+    "I"
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "blockCenterl"
+    }
+  },
+  "result": {
+    "item": "otyacraft:centerl_ingot",
+    "count": 9
+  }
+}

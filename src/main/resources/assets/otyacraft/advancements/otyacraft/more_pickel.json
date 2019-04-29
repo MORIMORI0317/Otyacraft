@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:ruby_pickaxe"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.morepickel.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.morepickel.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/next_pickel",
+    "criteria": {
+        "ruby": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:ruby_pickaxe"
+                    }
+                ]
+            }
+        },
+        "sapphire": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:sapphire_pickaxe"
+                    }
+                ]
+            }
+        },
+        "centerl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:centerl_pickaxe"
+                    }
+                ]
+            }
+        },
+        "silver": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:silver_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ruby",
+            "sapphire",
+            "centerl",
+            "silver"
+        ]
+    ]
+}

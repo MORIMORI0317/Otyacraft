@@ -1,0 +1,18 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:lead_ingot",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+"key": {
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "nuggetLead"
+    }
+  },
+  "result": {
+    "item": "otyacraft:lead_ingot"
+  }
+}

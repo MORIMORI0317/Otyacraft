@@ -1,0 +1,52 @@
+{
+    "variants": {
+        "age=0": [
+            { "model": "otyacraft:tea_crop_0" },
+            { "model": "otyacraft:tea_crop_0", "y": 90 },
+            { "model": "otyacraft:tea_crop_0", "y": 180 },
+            { "model": "otyacraft:tea_crop_0", "y": 270 }
+        ],
+               "age=1": [
+            { "model": "otyacraft:tea_crop_1" },
+            { "model": "otyacraft:tea_crop_1", "y": 90 },
+            { "model": "otyacraft:tea_crop_1", "y": 180 },
+            { "model": "otyacraft:tea_crop_1", "y": 270 }
+        ],
+               "age=2": [
+            { "model": "otyacraft:tea_crop_2" },
+            { "model": "otyacraft:tea_crop_2", "y": 90 },
+            { "model": "otyacraft:tea_crop_2", "y": 180 },
+            { "model": "otyacraft:tea_crop_2", "y": 270 }
+        ],
+               "age=3": [
+            { "model": "otyacraft:tea_crop_3" },
+            { "model": "otyacraft:tea_crop_3", "y": 90 },
+            { "model": "otyacraft:tea_crop_3", "y": 180 },
+            { "model": "otyacraft:tea_crop_3", "y": 270 }
+        ],
+               "age=4": [
+            { "model": "otyacraft:tea_crop_4" },
+            { "model": "otyacraft:tea_crop_4", "y": 90 },
+            { "model": "otyacraft:tea_crop_4", "y": 180 },
+            { "model": "otyacraft:tea_crop_4", "y": 270 }
+        ],
+               "age=5": [
+            { "model": "otyacraft:tea_crop_5" },
+            { "model": "otyacraft:tea_crop_5", "y": 90 },
+            { "model": "otyacraft:tea_crop_5", "y": 180 },
+            { "model": "otyacraft:tea_crop_5", "y": 270 }
+        ],
+               "age=6": [
+            { "model": "otyacraft:tea_crop_6" },
+            { "model": "otyacraft:tea_crop_6", "y": 90 },
+            { "model": "otyacraft:tea_crop_6", "y": 180 },
+            { "model": "otyacraft:tea_crop_6", "y": 270 }
+        ],
+               "age=7": [
+            { "model": "otyacraft:tea_crop_7" },
+            { "model": "otyacraft:tea_crop_7", "y": 90 },
+            { "model": "otyacraft:tea_crop_7", "y": 180 },
+            { "model": "otyacraft:tea_crop_7", "y": 270 }
+        ]
+    }
+}

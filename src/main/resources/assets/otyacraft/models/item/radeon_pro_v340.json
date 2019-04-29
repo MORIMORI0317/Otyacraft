@@ -1,0 +1,128 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "otyacraft:items/3d/radeon_pro_v340",
+		"particle": "otyacraft:items/3d/radeon_pro_v340"
+	},
+	"elements": [
+		{
+			"from": [0, 5, 0],
+			"to": [3, 12, 14],
+			"faces": {
+				"north": {"uv": [3.25, 2.25, 4, 4.5], "texture": "#0"},
+				"east": {"uv": [0.25, 5.25, 4.75, 7.45], "texture": "#0"},
+				"south": {"uv": [5.5, 0, 6.25, 0.75], "texture": "#0"},
+				"west": {"uv": [0, 0, 4.5, 2.25], "texture": "#0"},
+				"up": {"uv": [4.75, 0, 5.45, 4.5], "texture": "#0"},
+				"down": {"uv": [6.25, 0, 6.982, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 5, 14],
+			"to": [3, 11, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 6], "texture": "#missing"},
+				"east": {"uv": [0, 5.5, 0.25, 7.46], "texture": "#0"},
+				"south": {"uv": [2.5, 2.5, 3.25, 4.475], "texture": "#0"},
+				"west": {"uv": [4.5, 0.25, 4.75, 2.25], "texture": "#0"},
+				"up": {"uv": [5.5, 0, 6.25, 0.75], "texture": "#0"},
+				"down": {"uv": [6.25, 4.5, 6.95, 4.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0.1, 11, 14],
+			"to": [1, 11.9, 14.9],
+			"faces": {
+				"north": {"uv": [0, 0, 0.9, 0.9], "texture": "#missing"},
+				"east": {"uv": [0, 2.25, 2.25, 4.75], "texture": "#0"},
+				"south": {"uv": [0, 2.25, 2.25, 4.75], "texture": "#0"},
+				"west": {"uv": [0, 2.25, 2.25, 4.75], "texture": "#0"},
+				"up": {"uv": [0, 2.25, 2.25, 4.75], "texture": "#0"},
+				"down": {"uv": [0, 0, 0.9, 0.9], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [1, 11, 14],
+			"to": [3, 12, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 1], "texture": "#missing"},
+				"east": {"uv": [0, 5.25, 0.25, 5.5], "texture": "#0"},
+				"south": {"uv": [2.75, 2.25, 3.25, 2.5], "texture": "#0"},
+				"west": {"uv": [5.5, 0, 6.25, 0.75], "texture": "#0"},
+				"up": {"uv": [5, 4.5, 5.45, 4.75], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 1], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [0, 2, 0],
+			"to": [3, 5, 0],
+			"faces": {
+				"north": {"uv": [3.25, 4.5, 4, 5.25], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 3], "texture": "#missing"},
+				"south": {"uv": [4, 4.5, 3.25, 5.25], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 3], "texture": "#missing"},
+				"up": {"uv": [0, 0, 3, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 3, 0], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [0, 11.2, -1],
+			"to": [3, 11.2, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 0], "rotation": 180, "texture": "#missing"},
+				"east": {"uv": [0, 0, 0, 1], "rotation": 270, "texture": "#missing"},
+				"south": {"uv": [0, 0, 3, 0], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 1], "rotation": 90, "texture": "#missing"},
+				"up": {"uv": [4, 2.25, 4.75, 2.45], "texture": "#0"},
+				"down": {"uv": [4, 2.25, 4.75, 2.45], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2.5, 4, 0],
+			"to": [2.5, 5, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 1.5], "texture": "#missing"},
+				"east": {"uv": [4.25, 7.5, 0, 8], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 1.5], "texture": "#missing"},
+				"west": {"uv": [0, 7.5, 4.25, 8], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 11], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 11], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 0, 0],
+			"translation": [4, 2.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, 0, 0],
+			"translation": [-3.25, 2.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-25, -4, 0],
+			"translation": [6.25, 4, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [180, -4, 180],
+			"translation": [6.25, 4, 0]
+		},
+		"ground": {
+			"translation": [3.25, 0, 0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [41, 127, 0],
+			"translation": [-3.25, 4.25, 0]
+		},
+		"head": {
+			"translation": [5.75, 9.25, -6.5]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [-0.5, 0, 6.25]
+		}
+	}
+}

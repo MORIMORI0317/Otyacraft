@@ -1,0 +1,20 @@
+{
+    "parent": "otyacraft:otyacraft_recipes/root",
+    "criteria": {
+        "iron_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:lead_block"
+                    }
+                ]
+            }
+
+        }
+
+    },
+    "rewards": {
+        "recipes": ["otyacraft:item/from_block/lead_ingot_from_block"]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:radeon",
+            "data": 1
+        },
+        "title": {
+            "translate": "advancements.otyacraft.ireallydonotneedtohere.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.ireallydonotneedtohere.description"
+        },
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "otyacraft:otyacraft/i_want_good_gpu",
+    "rewards": {
+        "experience": 1000
+    },
+    "criteria": {
+        "otya": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:radeon",
+                        "data": 1
+                    }
+                ]
+            }
+        }
+    }
+}

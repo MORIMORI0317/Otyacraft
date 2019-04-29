@@ -1,0 +1,18 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:centerl_ingot",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+"key": {
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "nuggetCenterl"
+    }
+  },
+  "result": {
+    "item": "otyacraft:centerl_ingot"
+  }
+}

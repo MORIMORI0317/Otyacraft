@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "otyacraft:blocks/coal_factory_block_gear",
+        "top": "otyacraft:blocks/coal_factory_block_gear",
+        "side": "otyacraft:blocks/coal_factory_block_side"
+    }
+}

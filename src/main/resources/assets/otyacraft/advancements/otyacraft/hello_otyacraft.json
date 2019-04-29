@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:tea_leaves"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.hellootyacraft.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.hellootyacraft.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/root",
+    "criteria": {
+        "otya": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:tea_leaves"
+                    }
+                ]
+            }
+        }
+    }
+}

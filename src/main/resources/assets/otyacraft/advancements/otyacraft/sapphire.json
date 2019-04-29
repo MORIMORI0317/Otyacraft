@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:sapphire"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.sapphire.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.sapphire.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/next_pickel",
+    "criteria": {
+        "otya": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:sapphire"
+                    }
+                ]
+            }
+        }
+    },
+        "rewards": {
+        "recipes": [
+        "otyacraft:item/tool/sapphire_sword",
+        "otyacraft:item/tool/sapphire_shovel",
+        "otyacraft:item/tool/sapphire_pickaxe",
+        "otyacraft:item/tool/sapphire_hoe",
+        "otyacraft:item/tool/sapphire_axe",
+        "otyacraft:item/armor/sapphire_boots",
+        "otyacraft:item/armor/sapphire_chestplate",
+        "otyacraft:item/armor/sapphire_helmet",
+        "otyacraft:item/armor/sapphire_leggings",
+        "otyacraft:block/oreblock/sapphire_block"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "parent": "otyacraft:otyacraft_recipes/root",
+    "criteria": {
+        "iron_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:tea_flower_block"
+                    }
+                ]
+            }
+
+        }
+
+    },
+    "rewards": {
+        "recipes": ["otyacraft:vanila/wool"]
+    }
+}

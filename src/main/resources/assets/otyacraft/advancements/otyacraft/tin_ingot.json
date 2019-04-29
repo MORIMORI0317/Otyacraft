@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:tin_ingot"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.tiningot.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.tiningot.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/the_first_pickel",
+    "criteria": {
+        "otya": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:tin_ingot"
+                    }
+                ]
+            }
+        }
+    },
+        "rewards": {
+        "recipes": [
+        "otyacraft:item/gear/tin_gear",
+        "otyacraft:item/tool/tin_sword",
+        "otyacraft:item/tool/tin_shovel",
+        "otyacraft:item/tool/tin_pickaxe",
+        "otyacraft:item/tool/tin_hoe",
+        "otyacraft:item/tool/tin_axe",
+        "otyacraft:item/armor/tin_boots",
+        "otyacraft:item/armor/tin_chestplate",
+        "otyacraft:item/armor/tin_helmet",
+        "otyacraft:item/armor/tin_leggings",
+        "otyacraft:item/nugget/tin_nugget",
+        "otyacraft:item/gear/tin_gear",
+        "otyacraft:block/oreblock/tin_block"
+        ]
+    }
+}

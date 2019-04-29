@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:lead_ingot"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.leadingot.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.leadingot.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/the_first_pickel",
+    "criteria": {
+        "otya": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:lead_ingot"
+                    }
+                ]
+            }
+        }
+    },
+        "rewards": {
+        "recipes": [
+        "otyacraft:item/gear/lead_gear",
+        "otyacraft:item/tool/lead_sword",
+        "otyacraft:item/tool/lead_shovel",
+        "otyacraft:item/tool/lead_pickaxe",
+        "otyacraft:item/tool/lead_hoe",
+        "otyacraft:item/tool/lead_axe",
+        "otyacraft:item/armor/lead_boots",
+        "otyacraft:item/armor/lead_chestplate",
+        "otyacraft:item/armor/lead_helmet",
+        "otyacraft:item/armor/lead_leggings",
+        "otyacraft:item/nugget/lead_nugget",
+        "otyacraft:item/gear/lead_gear",
+        "otyacraft:block/oreblock/lead_block"
+        ]
+    }
+}

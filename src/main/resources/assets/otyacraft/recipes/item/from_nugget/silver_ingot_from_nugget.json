@@ -1,0 +1,18 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:silver_ingot",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+"key": {
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "nuggetSilver"
+    }
+  },
+  "result": {
+    "item": "otyacraft:silver_ingot"
+  }
+}

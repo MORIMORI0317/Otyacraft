@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:tea_and_tea_cup"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.root.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.root.description"
+        },
+        "background": "otyacraft:textures/blocks/second_grilled_brick_block.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "otyacraft": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dirt"
+                    }
+                ]
+            }
+        }
+    }
+}

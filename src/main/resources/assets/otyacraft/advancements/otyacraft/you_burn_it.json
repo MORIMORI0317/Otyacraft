@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:second_grilled_brick"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.youburnit.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.youburnit.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/root",
+    "criteria": {
+        "otya": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:second_grilled_brick"
+                    }
+                ]
+            }
+        }
+    },
+        "rewards": {
+        "recipes": ["otyacraft:item/other/tea_cup","otyacraft:item/tool/sgb_sword","otyacraft:item/tool/sgb_shovel","otyacraft:item/tool/sgb_pickaxe","otyacraft:item/tool/sgb_hoe","otyacraft:item/tool/sgb_axe","otyacraft:item/armor/sgb_boots","otyacraft:item/armor/sgb_chestplate","otyacraft:item/armor/sgb_helmet","otyacraft:item/armor/sgb_leggings","otyacraft:block/other/second_grilled_brick_block"]
+    }
+}

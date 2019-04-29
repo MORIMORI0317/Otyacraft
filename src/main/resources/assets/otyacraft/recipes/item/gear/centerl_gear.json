@@ -1,0 +1,22 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:centerl_gear",
+  "pattern": [
+    "INI",
+    "N N",
+    "INI"
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "nuggetCenterl"
+    },
+    "N": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCenterl"
+    }
+  },
+  "result": {
+    "item": "otyacraft:centerl_gear"
+  }
+}

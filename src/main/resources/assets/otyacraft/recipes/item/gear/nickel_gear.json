@@ -1,0 +1,22 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:nickel_gear",
+  "pattern": [
+    "INI",
+    "N N",
+    "INI"
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "nuggetNickel"
+    },
+    "N": {
+      "type": "forge:ore_dict",
+      "ore": "ingotNickel"
+    }
+  },
+  "result": {
+    "item": "otyacraft:nickel_gear"
+  }
+}

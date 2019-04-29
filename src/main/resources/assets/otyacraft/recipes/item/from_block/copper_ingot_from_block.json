@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "otyacraft:copper_ingot",
+  "pattern": [
+    "I"
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "blockCopper"
+    }
+  },
+  "result": {
+    "item": "otyacraft:copper_ingot",
+    "count": 9
+  }
+}

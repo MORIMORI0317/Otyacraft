@@ -1,0 +1,20 @@
+{
+    "parent": "otyacraft:otyacraft_recipes/root",
+    "criteria": {
+        "iron_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:nickel_block"
+                    }
+                ]
+            }
+
+        }
+
+    },
+    "rewards": {
+        "recipes": ["otyacraft:item/from_block/nickel_ingot_from_block"]
+    }
+}

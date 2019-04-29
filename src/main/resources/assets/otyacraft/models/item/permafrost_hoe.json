@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "otyacraft:items/permafrost_hoe"
+  }
+}

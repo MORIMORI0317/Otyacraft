@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "otyacraft:sgb_pickaxe"
+        },
+        "title": {
+            "translate": "advancements.otyacraft.thefirstpickel.title"
+        },
+        "description": {
+            "translate": "advancements.otyacraft.thefirstpickel.description"
+        }
+    },
+    "parent": "otyacraft:otyacraft/you_burn_it",
+    "criteria": {
+        "otya": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "otyacraft:sgb_pickaxe"
+                    }
+                ]
+            }
+        }
+    }
+}
