@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "otyacraft:radeon",
-            "data": 1
+            "item": "otyacraft:radeon_pro_v340"
         },
         "title": {
             "translate": "advancements.otyacraft.ireallydonotneedtohere.title"
@@ -23,8 +22,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "otyacraft:radeon",
-                        "data": 1
+                        "item": "otyacraft:radeon_pro_v340"
                     }
                 ]
             }

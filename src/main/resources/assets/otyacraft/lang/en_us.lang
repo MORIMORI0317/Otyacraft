@@ -183,6 +183,7 @@ tooltip.Second_grilled_brick.name=§aFor the first time added item in otyacraft
 tooltip.seed.soil=Soil:%s
 tooltip.returncrafting=This item is not consumed by craft
 tooltip.unused=Unused or not implemented
+tooltip.old=Please single craft!
 #Advancements#
 advancements.otyacraft.root.title=Otyacraft
 advancements.otyacraft.root.description=Not only for tea
@@ -234,3 +235,5 @@ advancements.otyacraft.byproductoftea.title=by product of tea
 advancements.otyacraft.byproductoftea.description=Acquire tea flower 
 advancements.otyacraft.Industrialbuildingmaterials.title=Industrial building materials
 advancements.otyacraft.Industrialbuildingmaterials.description=craft factory block
+#Messege#
+messege.goodwether.name=Today is good sunny day

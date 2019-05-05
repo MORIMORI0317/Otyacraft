@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "otyacraft:radeon"
+            "item": "otyacraft:radeon_vii"
         },
         "title": {
             "translate": "advancements.otyacraft.iwantgoodgpu.title"
@@ -22,8 +22,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "otyacraft:radeon",
-                        "data": 0
+                        "item": "otyacraft:radeon_vii"
                     }
                 ]
             }

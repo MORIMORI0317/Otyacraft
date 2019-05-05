@@ -7,6 +7,8 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.text.TextComponentString;
+import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.World;
 import otyacraft.Variable;
 import otyacraft.creativetabs.OCCreativetabs;
@@ -34,10 +36,12 @@ public class Item_tea_and_tea_cup extends ItemFood {
     {
         if (!worldIn.isRemote)
         {
-                player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 400, 3));
-                player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 200, 0));
-                player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 600, 2));
-                player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 600, 2));
+        		player.sendMessage(new TextComponentString(player.getName()+":"));
+        		player.sendMessage(new TextComponentString(I18n.translateToLocal("messege.goodwether.name").trim()));
+                player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 400, 0));
+                player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 400, 0));
+
+
         }
     }
 

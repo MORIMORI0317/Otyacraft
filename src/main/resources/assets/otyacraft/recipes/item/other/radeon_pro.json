@@ -12,12 +12,11 @@
       "ore": "blockDiamond"
     },
     "R": {
-      "item": "otyacraft:radeon",
-      "data": 0
+      "item": "otyacraft:radeon_vii"
     } 
   },
   "result": {
-      "item": "otyacraft:radeon",
-    "data": 1
+      "item": "otyacraft:radeon_pro_v340"
+
   }
 }

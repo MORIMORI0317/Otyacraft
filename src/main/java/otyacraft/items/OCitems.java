@@ -13,47 +13,51 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.registries.IForgeRegistry;
 import otyacraft.Variable;
 import otyacraft.blocks.OCblocks;
+import otyacraft.creativetabs.OCCreativetabs;
 @ObjectHolder(Variable.MODID)
 public class OCitems {
 	//Item Declaration アイテム宣言
     public static final Item TEST = new Item_test();
     public static final Item SECOND_GRILLED_BRICK = new Item_second_grilled_brick();
-    public static final Item COPPER_INGOT = new Item_ingot("copper");
-    public static final Item TIN_INGOT = new Item_ingot("tin");
-    public static final Item LEAD_INGOT = new Item_ingot("lead");
-    public static final Item NICKEL_INGOT = new Item_ingot("nickel");
-    public static final Item SILVER_INGOT = new Item_ingot("silver");
-    public static final Item RUBY = new Item_gem("ruby");
-    public static final Item SAPPHIRE = new Item_gem("sapphire");
-    public static final Item PERMAFROST_INGOT = new Item_ingot("permafrost");
-    public static final Item CENTERL_INGOT = new Item_ingot("centerl");
-    public static final Item FICTNIUM_INGOT = new Item_ingot("fictnium");
-    public static final Item REALITE = new Item_gem("realite");
-    public static final Item COPPER_NUGGET = new Item_nugget("copper");
-    public static final Item TIN_NUGGET = new Item_nugget("tin");
-    public static final Item LEAD_NUGGET = new Item_nugget("lead");
-    public static final Item NICKEL_NUGGET = new Item_nugget("nickel");
-    public static final Item SILVER_NUGGET = new Item_nugget("silver");
-    public static final Item CENTERL_NUGGET = new Item_nugget("centerl");
-    public static final Item IRON_GEAR = new Item_gear("iron");
-    public static final Item COPPER_GEAR = new Item_gear("copper");
-    public static final Item TIN_GEAR = new Item_gear("tin");
-    public static final Item LEAD_GEAR = new Item_gear("lead");
-    public static final Item NICKEL_GEAR = new Item_gear("nickel");
-    public static final Item CENTERL_GEAR = new Item_gear("centerl");
-    public static final Item SILVER_GEAR = new Item_gear("silver");
-    public static final Item PERMAFROST_POWDER = new Item_oc_nomal("permafrost_powder","permafrostpowder");
-    public static final Item TEA_LEAVES = new Item_oc_nomal("tea_leaves","tealeaves");
-    public static final Item TEA_CUP = new Item_oc_nomal("tea_cup","teacup");
-    public static final Item TEA_LEAVES_POWDER = new Item_oc_nomal("tea_leaves_powder","tealeavespowder");
+    public static final Item COPPER_INGOT = new Item_oc_materia("copper","ingot");
+    public static final Item TIN_INGOT = new Item_oc_materia("tin","ingot");
+    public static final Item LEAD_INGOT = new Item_oc_materia("lead","ingot");
+    public static final Item NICKEL_INGOT = new Item_oc_materia("nickel","ingot");
+    public static final Item SILVER_INGOT = new Item_oc_materia("silver","ingot");
+    public static final Item RUBY = new Item().setRegistryName("ruby").setUnlocalizedName("ruby").setCreativeTab(OCCreativetabs.MISC);
+    public static final Item SAPPHIRE = new Item().setRegistryName("sapphire").setUnlocalizedName("sapphire").setCreativeTab(OCCreativetabs.MISC);
+    public static final Item PERMAFROST_INGOT = new Item_oc_materia("permafrost","ingot");
+    public static final Item CENTERL_INGOT = new Item_oc_materia("centerl","ingot");
+    public static final Item FICTNIUM_INGOT = new Item_oc_materia("fictnium","ingot");
+    public static final Item REALITE = new Item().setRegistryName("realite").setUnlocalizedName("realite").setCreativeTab(OCCreativetabs.MISC);
+    public static final Item COPPER_NUGGET = new Item_oc_materia("copper","nugget");
+    public static final Item TIN_NUGGET = new Item_oc_materia("tin","nugget");
+    public static final Item LEAD_NUGGET = new Item_oc_materia("lead","nugget");
+    public static final Item NICKEL_NUGGET = new Item_oc_materia("nickel","nugget");
+    public static final Item SILVER_NUGGET = new Item_oc_materia("silver","nugget");
+    public static final Item CENTERL_NUGGET = new Item_oc_materia("centerl","nugget");
+    public static final Item IRON_GEAR = new Item_oc_materia("iron","gear");
+    public static final Item COPPER_GEAR = new Item_oc_materia("copper","gear");
+    public static final Item TIN_GEAR = new Item_oc_materia("tin","gear");
+    public static final Item LEAD_GEAR = new Item_oc_materia("lead","gear");
+    public static final Item NICKEL_GEAR = new Item_oc_materia("nickel","gear");
+    public static final Item CENTERL_GEAR = new Item_oc_materia("centerl","gear");
+    public static final Item SILVER_GEAR = new Item_oc_materia("silver","gear");
+    public static final Item PERMAFROST_POWDER = new Item().setRegistryName("permafrost_powder").setUnlocalizedName("permafrostpowder").setCreativeTab(OCCreativetabs.MISC);
+    public static final Item TEA_LEAVES = new Item().setRegistryName("tea_leaves").setUnlocalizedName("tealeaves").setCreativeTab(OCCreativetabs.MISC);
+    public static final Item TEA_CUP = new Item().setRegistryName("tea_cup").setUnlocalizedName("teacup").setCreativeTab(OCCreativetabs.MISC);
+    public static final Item TEA_LEAVES_POWDER = new Item().setRegistryName("tea_leaves_powder").setUnlocalizedName("tealeavespowder").setCreativeTab(OCCreativetabs.MISC);
     public static final Item NEEDLE = new Item_needle();
-    public static final Item BROKEN_NEEDLE = new Item_oc_unused("broken_needle","brokenneedle");
-    public static final Item OTYACRFT_DICTIONARY = new Item_oc_dictionary();
+    public static final Item BROKEN_NEEDLE = new Item_oc_unused().setRegistryName("broken_needle").setUnlocalizedName("brokenneedle").setCreativeTab(OCCreativetabs.MISC);
+    public static final Item OTYACRFT_DICTIONARY = new Item_oc_unused().setRegistryName("oc_dictionary").setUnlocalizedName("otyacraftdictionary").setCreativeTab(OCCreativetabs.MISC).setMaxStackSize(1);
     public static final Item TEA_AND_TEA_CUP = new Item_tea_and_tea_cup(4, 0.3F, false,"tea_and_tea_cup","teaandteacup");
     public static final Item SILVER_APPLE = new Item_silver_apple(4, 0.3F, false);
     public static final Item TEA_SEED = new Item_seed(OCblocks.TEA_CROP,Blocks.FARMLAND,"tea");
-    public static final Item TEA_FLOWER = new Item_oc_nomal("tea_flower","teaflower");
-    public static final Item RADEON = new Item_oc_radeon("radeon");
+    public static final Item TEA_FLOWER = new Item().setRegistryName("tea_flower").setUnlocalizedName("teaflower").setCreativeTab(OCCreativetabs.MISC);
+    public static final Item OLD_RADEON = new Item_oc_radeon();
+    public static final Item ENCHANTED_SILVER_APPLE = new ItemAppleSILVEREnchanted(4, 0.3F, false);
+    public static final Item RADEON_VII = new Item().setRegistryName("radeon_vii").setUnlocalizedName("radeonvii").setCreativeTab(OCCreativetabs.MISC).setMaxStackSize(1);
+    public static final Item RADEON_PRO_V340 = new Item().setRegistryName("radeon_pro_v340").setUnlocalizedName("radeonprov340").setCreativeTab(OCCreativetabs.MISC).setMaxStackSize(1);
     //Tool and Armor ツールと装備
     public static final Item SECOND_GRILLED_BRICK_SWORD = new Item_oc_nomal_sword("sgb",OCToolMaterial.SGB);
     public static final Item SECOND_GRILLED_BRICK_SHOVEL = new Item_oc_nomal_shovel("sgb",OCToolMaterial.SGB);
@@ -149,135 +153,138 @@ public class OCitems {
     @SubscribeEvent
     public static void registerItem(IForgeRegistry<Item> items) {
     	//Item register アイテム登録
-       items.register(TEST);
-       items.register(SECOND_GRILLED_BRICK);
-       items.register(COPPER_INGOT);
-       items.register(TIN_INGOT);
-       items.register(LEAD_INGOT);
-       items.register(NICKEL_INGOT);
-       items.register(SILVER_INGOT);
-       items.register(RUBY);
-       items.register(SAPPHIRE);
-       items.register(PERMAFROST_INGOT);
-       items.register(CENTERL_INGOT);
-       items.register(FICTNIUM_INGOT);
-       items.register(REALITE);
-       items.register(COPPER_NUGGET);
-       items.register(TIN_NUGGET);
-       items.register(LEAD_NUGGET);
-       items.register(NICKEL_NUGGET);
-       items.register(SILVER_NUGGET);
-       items.register(CENTERL_NUGGET);
-       items.register(IRON_GEAR);
-       items.register(COPPER_GEAR);
-       items.register(TIN_GEAR);
-       items.register(LEAD_GEAR);
-       items.register(NICKEL_GEAR);
-       items.register(CENTERL_GEAR);
-       items.register(SILVER_GEAR);
-       items.register(PERMAFROST_POWDER);
-       items.register(TEA_LEAVES);
-       items.register(TEA_CUP);
-       items.register(TEA_LEAVES_POWDER);
-       items.register(NEEDLE);
-       items.register(BROKEN_NEEDLE);
-       items.register(OTYACRFT_DICTIONARY);
-       items.register(TEA_AND_TEA_CUP);
-       items.register(SILVER_APPLE);
-       items.register(TEA_SEED);
-       items.register(TEA_FLOWER);
-       items.register(RADEON);
-       items.register(SECOND_GRILLED_BRICK_SWORD);
-       items.register(SECOND_GRILLED_BRICK_SHOVEL);
-       items.register(SECOND_GRILLED_BRICK_PICKAXE);
-       items.register(SECOND_GRILLED_BRICK_AXE);
-       items.register(SECOND_GRILLED_BRICK_HOE);
-       items.register(SECOND_GRILLED_BRICK_HELMET);
-       items.register(SECOND_GRILLED_BRICK_CHESTPLATE);
-       items.register(SECOND_GRILLED_BRICK_LEGGINGS);
-       items.register(SECOND_GRILLED_BRICK_BOOTS);
-       items.register(COPPER_SWORD);
-       items.register(COPPER_SHOVEL);
-       items.register(COPPER_PICKAXE);
-       items.register(COPPER_AXE);
-       items.register(COPPER_HOE);
-       items.register(COPPER_HELMET);
-       items.register(COPPER_CHESTPLATE);
-       items.register(COPPER_LEGGINGS);
-       items.register(COPPER_BOOTS);
-       items.register(TIN_SWORD);
-       items.register(TIN_SHOVEL);
-       items.register(TIN_PICKAXE);
-       items.register(TIN_AXE);
-       items.register(TIN_HOE);
-       items.register(TIN_HELMET);
-       items.register(TIN_CHESTPLATE);
-       items.register(TIN_LEGGINGS);
-       items.register(TIN_BOOTS);
-       items.register(LEAD_SWORD);
-       items.register(LEAD_SHOVEL);
-       items.register(LEAD_PICKAXE);
-       items.register(LEAD_AXE);
-       items.register(LEAD_HOE);
-       items.register(LEAD_HELMET);
-       items.register(LEAD_CHESTPLATE);
-       items.register(LEAD_LEGGINGS);
-       items.register(LEAD_BOOTS);
-       items.register(NICKEL_SWORD);
-       items.register(NICKEL_SHOVEL);
-       items.register(NICKEL_PICKAXE);
-       items.register(NICKEL_AXE);
-       items.register(NICKEL_HOE);
-       items.register(NICKEL_HELMET);
-       items.register(NICKEL_CHESTPLATE);
-       items.register(NICKEL_LEGGINGS);
-       items.register(NICKEL_BOOTS);
-       items.register(RUBY_SWORD);
-       items.register(RUBY_SHOVEL);
-       items.register(RUBY_PICKAXE);
-       items.register(RUBY_AXE);
-       items.register(RUBY_HOE);
-       items.register(RUBY_HELMET);
-       items.register(RUBY_CHESTPLATE);
-       items.register(RUBY_LEGGINGS);
-       items.register(RUBY_BOOTS);
-       items.register(SAPPHIRE_SWORD);
-       items.register(SAPPHIRE_SHOVEL);
-       items.register(SAPPHIRE_PICKAXE);
-       items.register(SAPPHIRE_AXE);
-       items.register(SAPPHIRE_HOE);
-       items.register(SAPPHIRE_HELMET);
-       items.register(SAPPHIRE_CHESTPLATE);
-       items.register(SAPPHIRE_LEGGINGS);
-       items.register(SAPPHIRE_BOOTS);
-       items.register(SILVER_SWORD);
-       items.register(SILVER_SHOVEL);
-       items.register(SILVER_PICKAXE);
-       items.register(SILVER_AXE);
-       items.register(SILVER_HOE);
-       items.register(SILVER_HELMET);
-       items.register(SILVER_CHESTPLATE);
-       items.register(SILVER_LEGGINGS);
-       items.register(SILVER_BOOTS);
-       items.register(CENTERL_SWORD);
-       items.register(CENTERL_SHOVEL);
-       items.register(CENTERL_PICKAXE);
-       items.register(CENTERL_AXE);
-       items.register(CENTERL_HOE);
-       items.register(CENTERL_HELMET);
-       items.register(CENTERL_CHESTPLATE);
-       items.register(CENTERL_LEGGINGS);
-       items.register(CENTERL_BOOTS);
-       items.register(PERMAFROST_SWORD);
-       items.register(PERMAFROST_SHOVEL);
-       items.register(PERMAFROST_PICKAXE);
-       items.register(PERMAFROST_AXE);
-       items.register(PERMAFROST_HOE);
-       items.register(PERMAFROST_HELMET);
-       items.register(PERMAFROST_CHESTPLATE);
-       items.register(PERMAFROST_LEGGINGS);
-       items.register(PERMAFROST_BOOTS);
-       items.register(REFI_SWORD);
+       items.registerAll(TEST,
+    		   SECOND_GRILLED_BRICK,
+    		   COPPER_INGOT,
+    		   TIN_INGOT,
+    		   LEAD_INGOT,
+    		   NICKEL_INGOT,
+    		   SILVER_INGOT,
+    		   RUBY,
+    		   SAPPHIRE,
+    		   PERMAFROST_INGOT,
+    		   CENTERL_INGOT,
+    		   FICTNIUM_INGOT,
+    		   REALITE,
+    		   COPPER_NUGGET,
+    		   TIN_NUGGET,
+    		   LEAD_NUGGET,
+    		   NICKEL_NUGGET,
+    		   SILVER_NUGGET,
+    		   CENTERL_NUGGET,
+    		   IRON_GEAR,
+    		   COPPER_GEAR,
+    		   TIN_GEAR,
+    		   LEAD_GEAR,
+    		   NICKEL_GEAR,
+    		   CENTERL_GEAR,
+    		   SILVER_GEAR,
+    		   PERMAFROST_POWDER,
+    		   TEA_LEAVES,
+    		   TEA_CUP,
+    		   TEA_LEAVES_POWDER,
+    		   NEEDLE,
+    		   BROKEN_NEEDLE,
+    		   OTYACRFT_DICTIONARY,
+    		   TEA_AND_TEA_CUP,
+    		   SILVER_APPLE,
+    		   TEA_SEED,
+    		   TEA_FLOWER,
+    		   OLD_RADEON,
+    		   SECOND_GRILLED_BRICK_SWORD,
+    		   SECOND_GRILLED_BRICK_SHOVEL,
+    		   SECOND_GRILLED_BRICK_PICKAXE,
+    		   SECOND_GRILLED_BRICK_AXE,
+    		   SECOND_GRILLED_BRICK_HOE,
+    		   SECOND_GRILLED_BRICK_HELMET,
+    		   SECOND_GRILLED_BRICK_CHESTPLATE,
+    		   SECOND_GRILLED_BRICK_LEGGINGS,
+    		   SECOND_GRILLED_BRICK_BOOTS,
+    		   COPPER_SWORD,
+    		   COPPER_SHOVEL,
+    		   COPPER_PICKAXE,
+    		   COPPER_AXE,
+    		   COPPER_HOE,
+    		   COPPER_HELMET,
+    		   COPPER_CHESTPLATE,
+    		   COPPER_LEGGINGS,
+    		   COPPER_BOOTS,
+    		   TIN_SWORD,
+    		   TIN_SHOVEL,
+    		   TIN_PICKAXE,
+    		   TIN_AXE,
+    		   TIN_HOE,
+    		   TIN_HELMET,
+    		   TIN_CHESTPLATE,
+    		   TIN_LEGGINGS,
+    		   TIN_BOOTS,
+    		   LEAD_SWORD,
+    		   LEAD_SHOVEL,
+    		   LEAD_PICKAXE,
+    		   LEAD_AXE,
+    		   LEAD_HOE,
+    		   LEAD_HELMET,
+    		   LEAD_CHESTPLATE,
+    		   LEAD_LEGGINGS,
+    		   LEAD_BOOTS,
+    		   NICKEL_SWORD,
+    		   NICKEL_SHOVEL,
+    		   NICKEL_PICKAXE,
+    		   NICKEL_AXE,
+    		   NICKEL_HOE,
+    		   NICKEL_HELMET,
+    		   NICKEL_CHESTPLATE,
+    		   NICKEL_LEGGINGS,
+    		   NICKEL_BOOTS,
+    		   RUBY_SWORD,
+    		   RUBY_SHOVEL,
+    		   RUBY_PICKAXE,
+    		   RUBY_AXE,
+    		   RUBY_HOE,
+    		   RUBY_HELMET,
+    		   RUBY_CHESTPLATE,
+    		   RUBY_LEGGINGS,
+    		   RUBY_BOOTS,
+    		   SAPPHIRE_SWORD,
+    		   SAPPHIRE_SHOVEL,
+    		   SAPPHIRE_PICKAXE,
+    		   SAPPHIRE_AXE,
+    		   SAPPHIRE_HOE,
+    		   SAPPHIRE_HELMET,
+    		   SAPPHIRE_CHESTPLATE,
+    		   SAPPHIRE_LEGGINGS,
+    		   SAPPHIRE_BOOTS,
+    		   SILVER_SWORD,
+    		   SILVER_SHOVEL,
+    		   SILVER_PICKAXE,
+    		   SILVER_AXE,
+    		   SILVER_HOE,
+    		   SILVER_HELMET,
+    		   SILVER_CHESTPLATE,
+    		   SILVER_LEGGINGS,
+    		   SILVER_BOOTS,
+    		   CENTERL_SWORD,
+    		   CENTERL_SHOVEL,
+    		   CENTERL_PICKAXE,
+    		   CENTERL_AXE,
+    		   CENTERL_HOE,
+    		   CENTERL_HELMET,
+    		   CENTERL_CHESTPLATE,
+    		   CENTERL_LEGGINGS,
+    		   CENTERL_BOOTS,
+    		   PERMAFROST_SWORD,
+    		   PERMAFROST_SHOVEL,
+    		   PERMAFROST_PICKAXE,
+    		   PERMAFROST_AXE,
+    		   PERMAFROST_HOE,
+    		   PERMAFROST_HELMET,
+    		   PERMAFROST_CHESTPLATE,
+    		   PERMAFROST_LEGGINGS,
+    		   PERMAFROST_BOOTS,
+    		   REFI_SWORD,
+    		   RADEON_VII,
+    		   RADEON_PRO_V340,
+    		   ENCHANTED_SILVER_APPLE);
     }
 
     @SubscribeEvent
@@ -411,9 +418,9 @@ public class OCitems {
         ModelLoader.setCustomModelResourceLocation(PERMAFROST_BOOTS, 0, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "permafrost_boots"), "inventory"));
         ModelLoader.setCustomModelResourceLocation(TEA_SEED, 0, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "tea_seed"), "inventory"));
         ModelLoader.setCustomModelResourceLocation(TEA_FLOWER, 0, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "tea_flower"), "inventory"));
-        ModelLoader.setCustomModelResourceLocation(SILVER_APPLE, 1, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "silver_apple"), "inventory"));
-        ModelLoader.setCustomModelResourceLocation(RADEON, 0, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "radeon_vii"), "inventory"));
-        ModelLoader.setCustomModelResourceLocation(RADEON, 1, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "radeon_pro_v340"), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(RADEON_VII, 0, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "radeon_vii"), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(RADEON_PRO_V340, 0, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "radeon_pro_v340"), "inventory"));
         ModelLoader.setCustomModelResourceLocation(REFI_SWORD, 0, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "refi_sword"), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(ENCHANTED_SILVER_APPLE, 0, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "silver_apple"), "inventory"));
     }
 }

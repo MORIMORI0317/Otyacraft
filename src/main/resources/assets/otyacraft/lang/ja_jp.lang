@@ -181,6 +181,7 @@ tooltip.Second_grilled_brick.name=§aお茶クラフトで初めて追加され�
 tooltip.seed.soil=土壌:%s
 tooltip.returncrafting=このアイテムはクラフトによって消費されません
 tooltip.unused=未使用または未実装
+tooltip.old=単体クラフトしてください！！
 #Advancements#
 advancements.otyacraft.root.description=お茶だけじゃない
 advancements.otyacraft.hellootyacraft.title=ハローお茶クラフト！！
@@ -231,6 +232,8 @@ advancements.otyacraft.byproductoftea.title=お茶の副産物
 advancements.otyacraft.byproductoftea.description=お茶の花を摘む
 advancements.otyacraft.Industrialbuildingmaterials.title=工業用建材
 advancements.otyacraft.Industrialbuildingmaterials.description=工場ブロックをクラフトする
+#Messege#
+messege.goodwether.name=今日もいい天気
 
 
 

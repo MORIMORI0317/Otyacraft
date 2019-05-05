@@ -6,10 +6,10 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import otyacraft.proxy.CommonProxy;
-@Mod(modid = Variable.MODID, version = Variable.MODVER, name = Variable.MODNAME, useMetadata = true,dependencies = Variable.MODNEEDFORGE)
+@Mod(modid = Variable.MODID, version = Variable.MODVER, name = Variable.MODNAME, useMetadata = true,dependencies = Variable.MODNEEDFORGE,
+updateJSON = Variable.MODVERCHECK)
 @EventBusSubscriber
 public class Otyacraft {
-		//114514TEST
     @SidedProxy(clientSide=Variable.Client_Proxy, serverSide=Variable.ServerProxy)
     public static CommonProxy proxy;
 

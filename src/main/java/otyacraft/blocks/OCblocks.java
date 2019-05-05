@@ -65,102 +65,102 @@ public class OCblocks {
 	 public static final Block TEA_FLOWER_BLOCK = new Block_oc_nomal("tea_flower_block","teaflowerblock",Material.GRASS,SoundType.PLANT,1F,0.5F,0,null);
 	    @SubscribeEvent
 	    public static void registerItem(IForgeRegistry<Item> items) {
-        items.register(new ItemBlock(TEST).setRegistryName(Variable.MODID, "test_block"));
-        items.register(new ItemBlock(SECOND_GRILLED_BRICK_BLOCK).setRegistryName(Variable.MODID, "second_grilled_brick_block"));
-        items.register(new ItemBlock(COPPER_BLOCK).setRegistryName(Variable.MODID, "copper_block"));
-        items.register(new ItemBlock(LEAD_BLOCK).setRegistryName(Variable.MODID, "lead_block"));
-        items.register(new ItemBlock(NICKEL_BLOCK).setRegistryName(Variable.MODID, "nickel_block"));
-        items.register(new ItemBlock(TIN_BLOCK).setRegistryName(Variable.MODID, "tin_block"));
-        items.register(new ItemBlock(CENTERL_BLOCK).setRegistryName(Variable.MODID, "centerl_block"));
-        items.register(new ItemBlock(SILVER_BLOCK).setRegistryName(Variable.MODID, "silver_block"));
-        items.register(new ItemBlock(RUBY_BLOCK).setRegistryName(Variable.MODID, "ruby_block"));
-        items.register(new ItemBlock(SAPPHIRE_BLOCK).setRegistryName(Variable.MODID, "sapphire_block"));
-        items.register(new ItemBlock(REALITE_BLOCK).setRegistryName(Variable.MODID, "realite_block"));
-        items.register(new ItemBlock(FICTNIUM_BLOCK).setRegistryName(Variable.MODID, "fictnium_block"));
-        items.register(new ItemBlock(COPPER_ORE).setRegistryName(Variable.MODID, "copper_ore"));
-        items.register(new ItemBlock(LEAD_ORE).setRegistryName(Variable.MODID, "lead_ore"));
-        items.register(new ItemBlock(NICKEL_ORE).setRegistryName(Variable.MODID, "nickel_ore"));
-        items.register(new ItemBlock(TIN_ORE).setRegistryName(Variable.MODID, "tin_ore"));
-        items.register(new ItemBlock(SILVER_ORE).setRegistryName(Variable.MODID, "silver_ore"));
-        items.register(new ItemBlock(RUBY_ORE).setRegistryName(Variable.MODID, "ruby_ore"));
-        items.register(new ItemBlock(SAPPHIRE_ORE).setRegistryName(Variable.MODID, "sapphire_ore"));
-        items.register(new ItemBlock(REALITE_ORE).setRegistryName(Variable.MODID, "realite_ore"));
-        items.register(new ItemBlock(FICTNIUM_ORE).setRegistryName(Variable.MODID, "fictnium_ore"));
-        items.register(new ItemBlock(CENTERL_ORE).setRegistryName(Variable.MODID, "centerl_ore"));
-        items.register(new ItemBlock(BIG_EGG).setRegistryName(Variable.MODID, "big_egg"));
-        items.register(new ItemBlock(LEATHER_STRING_BLOCK).setRegistryName(Variable.MODID, "leather_string_block"));
-        items.register(new ItemBlock(LEATHER_BLOCK).setRegistryName(Variable.MODID, "leather_block"));
-        items.register(new ItemBlock(PERMAFROST_GRASS).setRegistryName(Variable.MODID, "permafrost_grass"));
-        items.register(new ItemBlock(PERMAFROST).setRegistryName(Variable.MODID, "permafrost"));
-        items.register(new ItemBlock_oc_unused(CLEAR_GLASS).setRegistryName(Variable.MODID, "clear_glass"));
-        items.register(new ItemBlock(IRON_FACTORY_BLOCK).setRegistryName(Variable.MODID, "iron_factory_block"));
-        items.register(new ItemBlock(COPPER_FACTORY_BLOCK).setRegistryName(Variable.MODID, "copper_factory_block"));
-        items.register(new ItemBlock(TIN_FACTORY_BLOCK).setRegistryName(Variable.MODID, "tin_factory_block"));
-        items.register(new ItemBlock(LEAD_FACTORY_BLOCK).setRegistryName(Variable.MODID, "lead_factory_block"));
-        items.register(new ItemBlock(NICKEL_FACTORY_BLOCK).setRegistryName(Variable.MODID, "nickel_factory_block"));
-        items.register(new ItemBlock(GOLD_FACTORY_BLOCK).setRegistryName(Variable.MODID, "gold_factory_block"));
-        items.register(new ItemBlock(DIAMOND_FACTORY_BLOCK).setRegistryName(Variable.MODID, "diamond_factory_block"));
-        items.register(new ItemBlock(EMERALD_FACTORY_BLOCK).setRegistryName(Variable.MODID, "emerald_factory_block"));
-        items.register(new ItemBlock(REDSTONE_FACTORY_BLOCK).setRegistryName(Variable.MODID, "redstone_factory_block"));
-        items.register(new ItemBlock(QUARTZ_FACTORY_BLOCK).setRegistryName(Variable.MODID, "quartz_factory_block"));
-        items.register(new ItemBlock(COAL_FACTORY_BLOCK).setRegistryName(Variable.MODID, "coal_factory_block"));
-        items.register(new ItemBlock(LAPIS_FACTORY_BLOCK).setRegistryName(Variable.MODID, "lapis_factory_block"));
-        items.register(new ItemBlock(RUBY_FACTORY_BLOCK).setRegistryName(Variable.MODID, "ruby_factory_block"));
-        items.register(new ItemBlock(SAPPHIRE_FACTORY_BLOCK).setRegistryName(Variable.MODID, "sapphire_factory_block"));
-        items.register(new ItemBlock(CENTERL_FACTORY_BLOCK).setRegistryName(Variable.MODID, "centerl_factory_block"));
-        items.register(new ItemBlock(SILVER_FACTORY_BLOCK).setRegistryName(Variable.MODID, "silver_factory_block"));
-        items.register(new ItemBlock(WILD_TEA_SEEDLINGS).setRegistryName(Variable.MODID, "wild_tea_seedlings"));
-        items.register(new ItemBlock(TEA_FLOWER_BLOCK).setRegistryName(Variable.MODID, "tea_flower_block"));
+        items.registerAll(new ItemBlock(TEST).setRegistryName(Variable.MODID, "test_block"),
+        new ItemBlock(SECOND_GRILLED_BRICK_BLOCK).setRegistryName(Variable.MODID, "second_grilled_brick_block"),
+        new ItemBlock(COPPER_BLOCK).setRegistryName(Variable.MODID, "copper_block"),
+        new ItemBlock(LEAD_BLOCK).setRegistryName(Variable.MODID, "lead_block"),
+        new ItemBlock(NICKEL_BLOCK).setRegistryName(Variable.MODID, "nickel_block"),
+        new ItemBlock(TIN_BLOCK).setRegistryName(Variable.MODID, "tin_block"),
+        new ItemBlock(CENTERL_BLOCK).setRegistryName(Variable.MODID, "centerl_block"),
+        new ItemBlock(SILVER_BLOCK).setRegistryName(Variable.MODID, "silver_block"),
+        new ItemBlock(RUBY_BLOCK).setRegistryName(Variable.MODID, "ruby_block"),
+        new ItemBlock(SAPPHIRE_BLOCK).setRegistryName(Variable.MODID, "sapphire_block"),
+        new ItemBlock(REALITE_BLOCK).setRegistryName(Variable.MODID, "realite_block"),
+        new ItemBlock(FICTNIUM_BLOCK).setRegistryName(Variable.MODID, "fictnium_block"),
+        new ItemBlock(COPPER_ORE).setRegistryName(Variable.MODID, "copper_ore"),
+        new ItemBlock(LEAD_ORE).setRegistryName(Variable.MODID, "lead_ore"),
+        new ItemBlock(NICKEL_ORE).setRegistryName(Variable.MODID, "nickel_ore"),
+        new ItemBlock(TIN_ORE).setRegistryName(Variable.MODID, "tin_ore"),
+        new ItemBlock(SILVER_ORE).setRegistryName(Variable.MODID, "silver_ore"),
+        new ItemBlock(RUBY_ORE).setRegistryName(Variable.MODID, "ruby_ore"),
+        new ItemBlock(SAPPHIRE_ORE).setRegistryName(Variable.MODID, "sapphire_ore"),
+        new ItemBlock(REALITE_ORE).setRegistryName(Variable.MODID, "realite_ore"),
+        new ItemBlock(FICTNIUM_ORE).setRegistryName(Variable.MODID, "fictnium_ore"),
+        new ItemBlock(CENTERL_ORE).setRegistryName(Variable.MODID, "centerl_ore"),
+        new ItemBlock(BIG_EGG).setRegistryName(Variable.MODID, "big_egg"),
+        new ItemBlock(LEATHER_STRING_BLOCK).setRegistryName(Variable.MODID, "leather_string_block"),
+        new ItemBlock(LEATHER_BLOCK).setRegistryName(Variable.MODID, "leather_block"),
+        new ItemBlock(PERMAFROST_GRASS).setRegistryName(Variable.MODID, "permafrost_grass"),
+        new ItemBlock(PERMAFROST).setRegistryName(Variable.MODID, "permafrost"),
+        new ItemBlock_oc_unused(CLEAR_GLASS).setRegistryName(Variable.MODID, "clear_glass"),
+        new ItemBlock(IRON_FACTORY_BLOCK).setRegistryName(Variable.MODID, "iron_factory_block"),
+        new ItemBlock(COPPER_FACTORY_BLOCK).setRegistryName(Variable.MODID, "copper_factory_block"),
+        new ItemBlock(TIN_FACTORY_BLOCK).setRegistryName(Variable.MODID, "tin_factory_block"),
+        new ItemBlock(LEAD_FACTORY_BLOCK).setRegistryName(Variable.MODID, "lead_factory_block"),
+        new ItemBlock(NICKEL_FACTORY_BLOCK).setRegistryName(Variable.MODID, "nickel_factory_block"),
+        new ItemBlock(GOLD_FACTORY_BLOCK).setRegistryName(Variable.MODID, "gold_factory_block"),
+        new ItemBlock(DIAMOND_FACTORY_BLOCK).setRegistryName(Variable.MODID, "diamond_factory_block"),
+        new ItemBlock(EMERALD_FACTORY_BLOCK).setRegistryName(Variable.MODID, "emerald_factory_block"),
+        new ItemBlock(REDSTONE_FACTORY_BLOCK).setRegistryName(Variable.MODID, "redstone_factory_block"),
+        new ItemBlock(QUARTZ_FACTORY_BLOCK).setRegistryName(Variable.MODID, "quartz_factory_block"),
+        new ItemBlock(COAL_FACTORY_BLOCK).setRegistryName(Variable.MODID, "coal_factory_block"),
+        new ItemBlock(LAPIS_FACTORY_BLOCK).setRegistryName(Variable.MODID, "lapis_factory_block"),
+        new ItemBlock(RUBY_FACTORY_BLOCK).setRegistryName(Variable.MODID, "ruby_factory_block"),
+        new ItemBlock(SAPPHIRE_FACTORY_BLOCK).setRegistryName(Variable.MODID, "sapphire_factory_block"),
+        new ItemBlock(CENTERL_FACTORY_BLOCK).setRegistryName(Variable.MODID, "centerl_factory_block"),
+        new ItemBlock(SILVER_FACTORY_BLOCK).setRegistryName(Variable.MODID, "silver_factory_block"),
+        new ItemBlock(WILD_TEA_SEEDLINGS).setRegistryName(Variable.MODID, "wild_tea_seedlings"),
+        new ItemBlock(TEA_FLOWER_BLOCK).setRegistryName(Variable.MODID, "tea_flower_block"));
     }
     @SubscribeEvent
     public static void registerBlocks(IForgeRegistry<Block> blocks) {
-    	blocks.register(TEST);
-    	blocks.register(SECOND_GRILLED_BRICK_BLOCK);
-    	blocks.register(COPPER_BLOCK);
-    	blocks.register(LEAD_BLOCK);
-    	blocks.register(NICKEL_BLOCK);
-    	blocks.register(TIN_BLOCK);
-    	blocks.register(CENTERL_BLOCK);
-    	blocks.register(SILVER_BLOCK);
-    	blocks.register(RUBY_BLOCK);
-    	blocks.register(SAPPHIRE_BLOCK);
-    	blocks.register(REALITE_BLOCK);
-    	blocks.register(FICTNIUM_BLOCK);
-    	blocks.register(COPPER_ORE);
-    	blocks.register(LEAD_ORE);
-    	blocks.register(NICKEL_ORE);
-      	blocks.register(TIN_ORE);
-    	blocks.register(SILVER_ORE);
-    	blocks.register(RUBY_ORE);
-    	blocks.register(SAPPHIRE_ORE);
-    	blocks.register(REALITE_ORE);
-    	blocks.register(FICTNIUM_ORE);
-    	blocks.register(CENTERL_ORE);
-    	blocks.register(BIG_EGG);
-    	blocks.register(LEATHER_STRING_BLOCK);
-    	blocks.register(LEATHER_BLOCK);
-    	blocks.register(PERMAFROST_GRASS);
-    	blocks.register(PERMAFROST);
-    	blocks.register(CLEAR_GLASS);
-    	blocks.register(IRON_FACTORY_BLOCK);
-    	blocks.register(COPPER_FACTORY_BLOCK);
-    	blocks.register(TIN_FACTORY_BLOCK);
-    	blocks.register(LEAD_FACTORY_BLOCK);
-    	blocks.register(NICKEL_FACTORY_BLOCK);
-    	blocks.register(GOLD_FACTORY_BLOCK);
-    	blocks.register(DIAMOND_FACTORY_BLOCK);
-    	blocks.register(EMERALD_FACTORY_BLOCK);
-    	blocks.register(REDSTONE_FACTORY_BLOCK);
-    	blocks.register(QUARTZ_FACTORY_BLOCK);
-    	blocks.register(COAL_FACTORY_BLOCK);
-    	blocks.register(LAPIS_FACTORY_BLOCK);
-    	blocks.register(RUBY_FACTORY_BLOCK);
-    	blocks.register(SAPPHIRE_FACTORY_BLOCK);
-    	blocks.register(CENTERL_FACTORY_BLOCK);
-    	blocks.register(SILVER_FACTORY_BLOCK);
-    	blocks.register(WILD_TEA_SEEDLINGS);
-     	blocks.register(TEA_CROP);
-     	blocks.register(TEA_FLOWER_BLOCK);
+    	blocks.registerAll(TEST,
+    	SECOND_GRILLED_BRICK_BLOCK,
+    	COPPER_BLOCK,
+    	LEAD_BLOCK,
+    	NICKEL_BLOCK,
+    	TIN_BLOCK,
+    	CENTERL_BLOCK,
+    	SILVER_BLOCK,
+    	RUBY_BLOCK,
+    	SAPPHIRE_BLOCK,
+    	REALITE_BLOCK,
+    	FICTNIUM_BLOCK,
+    	COPPER_ORE,
+    	LEAD_ORE,
+    	NICKEL_ORE,
+      	TIN_ORE,
+    	SILVER_ORE,
+    	RUBY_ORE,
+    	SAPPHIRE_ORE,
+    	REALITE_ORE,
+    	FICTNIUM_ORE,
+    	CENTERL_ORE,
+    	BIG_EGG,
+    	LEATHER_STRING_BLOCK,
+    	LEATHER_BLOCK,
+    	PERMAFROST_GRASS,
+    	PERMAFROST,
+    	CLEAR_GLASS,
+    	IRON_FACTORY_BLOCK,
+    	COPPER_FACTORY_BLOCK,
+    	TIN_FACTORY_BLOCK,
+    	LEAD_FACTORY_BLOCK,
+    	NICKEL_FACTORY_BLOCK,
+    	GOLD_FACTORY_BLOCK,
+    	DIAMOND_FACTORY_BLOCK,
+    	EMERALD_FACTORY_BLOCK,
+    	REDSTONE_FACTORY_BLOCK,
+    	QUARTZ_FACTORY_BLOCK,
+    	COAL_FACTORY_BLOCK,
+    	LAPIS_FACTORY_BLOCK,
+    	RUBY_FACTORY_BLOCK,
+    	SAPPHIRE_FACTORY_BLOCK,
+    	CENTERL_FACTORY_BLOCK,
+    	SILVER_FACTORY_BLOCK,
+    	WILD_TEA_SEEDLINGS,
+     	TEA_CROP,
+     	TEA_FLOWER_BLOCK);
     }
     @SubscribeEvent
     @SideOnly(Side.CLIENT)
