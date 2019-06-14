@@ -8,7 +8,7 @@ public class Item_oc_nomal_shovel extends ItemSpade {
 	public Item_oc_nomal_shovel(String nameIn,ToolMaterial toolIn) {
 		super(toolIn);
 	        this.setRegistryName(Variable.MODID, nameIn+"_shovel");
-	        this.setCreativeTab(OCCreativetabs.TOOL);
+	        this.setCreativeTab(OCCreativetabs.OCTAB);
 	        this.setUnlocalizedName(nameIn+"shovel");
 	    }
 

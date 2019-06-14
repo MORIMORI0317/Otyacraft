@@ -18,7 +18,7 @@ public class Item_needle extends Item {
         this.maxStackSize = 1;
         this.setRegistryName("needle");
         this.setUnlocalizedName("needle");
-        this.setCreativeTab(OCCreativetabs.MISC);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
     }
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn)
     {

@@ -9,7 +9,7 @@ public class Item_oc_nomal_hoe extends ItemHoe {
 		super(toolIn);
 
 	        this.setRegistryName(Variable.MODID, nameIn+"_hoe");
-	        this.setCreativeTab(OCCreativetabs.TOOL);
+	        this.setCreativeTab(OCCreativetabs.OCTAB);
 	        this.setUnlocalizedName(nameIn+"hoe");
 	    }
 

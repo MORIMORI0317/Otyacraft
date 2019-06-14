@@ -15,7 +15,7 @@ public class Block_sapphire_block extends Block {
         this.setHarvestLevel("pickaxe", 2);
         this.setHardness(5.0F);
         this.setResistance(10.0F);
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
     }
 
 }

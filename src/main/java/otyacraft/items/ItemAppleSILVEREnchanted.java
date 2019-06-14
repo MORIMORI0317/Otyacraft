@@ -17,7 +17,7 @@ public class ItemAppleSILVEREnchanted extends ItemFood {
     {
         super(amount, saturation, isWolfFood);
         this.setRegistryName(Variable.MODID, "enchanted_silver_apple");
-        this.setCreativeTab(OCCreativetabs.FOOD);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setUnlocalizedName("silverapple");
         this.setAlwaysEdible();
     }

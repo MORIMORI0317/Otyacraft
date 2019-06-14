@@ -12,7 +12,7 @@ public class Block_factory_block extends Block {
         super(Material.ROCK);
         this.setRegistryName(Variable.MODID,name+"_factory_block");
         this.setUnlocalizedName(name+"factoryblock");
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setSoundType(SoundType.METAL);
         this.setHardness(5.0F);
         this.setResistance(10.0F);

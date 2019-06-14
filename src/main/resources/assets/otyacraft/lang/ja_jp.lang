@@ -127,6 +127,7 @@ item.permafrostboots.name=永久凍土のブーツ
 item.teaflower.name=茶の花
 item.teaseed.name=茶の種
 item.refisword.name=虚真の剣
+item.excalibur_modokisword.name=エクスカリバー?
 #Blocks#
 tile.testblock.name=テストブロック
 tile.secondgrilledbrickblock.name=二回焼いたレンガ
@@ -175,7 +176,7 @@ tile.silverfactoryblock.name=銀の工場ブロック
 tile.wildteaseedlings.name=野生の茶苗
 tile.teaflowerblock.name=茶の花ブロック
 #CreativeTabs#
-itemGroup.otyacraft=お茶クラフト %s
+itemGroup.otyacraft=お茶クラフト
 #Toolchip#
 tooltip.Second_grilled_brick.name=§aお茶クラフトで初めて追加されたアイテム
 tooltip.seed.soil=土壌:%s
@@ -233,7 +234,7 @@ advancements.otyacraft.byproductoftea.description=お茶の花を摘む
 advancements.otyacraft.Industrialbuildingmaterials.title=工業用建材
 advancements.otyacraft.Industrialbuildingmaterials.description=工場ブロックをクラフトする
 #Messege#
-messege.goodwether.name=今日もいい天気
+messege.goodwether.name=今日もいい天気☆
 
 
 

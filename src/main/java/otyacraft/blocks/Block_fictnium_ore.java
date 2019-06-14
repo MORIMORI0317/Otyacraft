@@ -11,7 +11,7 @@ public class Block_fictnium_ore extends Block {
         super(Material.ROCK);
         this.setRegistryName(Variable.MODID,"fictnium_ore");
         this.setUnlocalizedName("fictniumore");
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setSoundType(SoundType.STONE);
         this.setHardness(3.0F);
         this.setResistance(0.0F);

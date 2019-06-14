@@ -28,7 +28,7 @@ public class OCblocks {
 	 public static final Block SAPPHIRE_BLOCK = new Block_ore_block("sapphire",2,5.0F,10.0F);
 	 public static final Block REALITE_BLOCK = new Block_realite_block();
 	 public static final Block FICTNIUM_BLOCK = new Block_fictnium_block();
-	 public static final Block COPPER_ORE = new Block_nomal_ore("copper",3.0F,15.0F,1);
+	 public static final Block COPPER_ORE = new Block_nomal_ore("copper",3.03F,15.0F,1);
 	 public static final Block LEAD_ORE = new Block_nomal_ore("lead",3.0F,15.0F,1);
 	 public static final Block NICKEL_ORE = new Block_nomal_ore("nickel",3.0F,15.0F,1);
 	 public static final Block TIN_ORE = new Block_nomal_ore("tin",3.0F,15.0F,1);
@@ -63,6 +63,7 @@ public class OCblocks {
 	 public static final Block WILD_TEA_SEEDLINGS = new Block_wild_tea_seedlings();
 	 public static final Block TEA_CROP = new Block_tea_crop();
 	 public static final Block TEA_FLOWER_BLOCK = new Block_oc_nomal("tea_flower_block","teaflowerblock",Material.GRASS,SoundType.PLANT,1F,0.5F,0,null);
+
 	    @SubscribeEvent
 	    public static void registerItem(IForgeRegistry<Item> items) {
         items.registerAll(new ItemBlock(TEST).setRegistryName(Variable.MODID, "test_block"),
@@ -110,7 +111,9 @@ public class OCblocks {
         new ItemBlock(CENTERL_FACTORY_BLOCK).setRegistryName(Variable.MODID, "centerl_factory_block"),
         new ItemBlock(SILVER_FACTORY_BLOCK).setRegistryName(Variable.MODID, "silver_factory_block"),
         new ItemBlock(WILD_TEA_SEEDLINGS).setRegistryName(Variable.MODID, "wild_tea_seedlings"),
-        new ItemBlock(TEA_FLOWER_BLOCK).setRegistryName(Variable.MODID, "tea_flower_block"));
+        new ItemBlock(TEA_FLOWER_BLOCK).setRegistryName(Variable.MODID, "tea_flower_block")
+
+);
     }
     @SubscribeEvent
     public static void registerBlocks(IForgeRegistry<Block> blocks) {
@@ -160,7 +163,8 @@ public class OCblocks {
     	SILVER_FACTORY_BLOCK,
     	WILD_TEA_SEEDLINGS,
      	TEA_CROP,
-     	TEA_FLOWER_BLOCK);
+     	TEA_FLOWER_BLOCK
+     );
     }
     @SubscribeEvent
     @SideOnly(Side.CLIENT)
@@ -214,4 +218,5 @@ public class OCblocks {
        	ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(TEA_FLOWER_BLOCK), 0, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "tea_flower_block"), "inventory"));
 
     }
+
 }

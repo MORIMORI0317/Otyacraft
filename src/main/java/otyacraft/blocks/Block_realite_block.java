@@ -16,7 +16,7 @@ public class Block_realite_block extends Block {
         this.setRegistryName(Variable.MODID,"realite_block");
         this.setUnlocalizedName("realiteblock");
         this.setSoundType(SoundType.METAL);
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setHardness(0F);
         this.setResistance(99999F);
         this.setHarvestLevel("pickaxe", 3);

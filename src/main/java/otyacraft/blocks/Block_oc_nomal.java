@@ -11,7 +11,7 @@ public class Block_oc_nomal extends Block {
         super(mateIn);
         this.setRegistryName(Variable.MODID,RegistrynameIn);
         this.setUnlocalizedName(nlocalizedNameIn);
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setSoundType(soundIn);
         this.setHardness(Hardness);
         this.setResistance(Resistance);

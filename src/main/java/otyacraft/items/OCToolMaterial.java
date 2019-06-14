@@ -59,5 +59,6 @@ public class OCToolMaterial {
      			new int[] { 4, 7, 9, 4 }, 8, SoundEvents.BLOCK_GLASS_BREAK, 5.0F)
      	  .setRepairItem(new ItemStack(OCitems.PERMAFROST_INGOT));
     	public static ToolMaterial REFI = EnumHelper.addToolMaterial("REFI", 2, 150, 5.0F, 10F, 7);
+     	public static ToolMaterial EXCALIBUR_MODOKI = EnumHelper.addToolMaterial("EXCALIBUR_MODOKI", 2, 150, 5.0F, -1F, 7);
 
 	}

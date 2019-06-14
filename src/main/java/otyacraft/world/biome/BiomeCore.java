@@ -27,5 +27,6 @@ public class BiomeCore {
 			BiomeManager.addSpawnBiome(biomes);
 		}
 
+
 }
 

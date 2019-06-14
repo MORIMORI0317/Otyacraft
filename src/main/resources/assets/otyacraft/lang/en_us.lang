@@ -129,6 +129,7 @@ item.teaseed.name=Tea Seed
 item.radeonvii.name=Radeon Vii
 item.radeonprov340.name=Radeon Pro v340
 item.refisword.name=REFIsword
+item.excalibur_modokisword.name=Excalibur?
 #Blocks#
 tile.testblock.name=testblock
 tile.secondgrilledbrickblock.name=Second Grilled Bricks
@@ -177,7 +178,7 @@ tile.silverfactoryblock.name=Silver Factory Block
 tile.wildteaseedlings.name=Wild Tea Seedlings
 tile.teaflowerblock.name=Tea Flower Block
 #CreativeTabs#
-itemGroup.otyacraft=Otyacraft %s
+itemGroup.otyacraft=Otyacraft
 #Toolchip#
 tooltip.Second_grilled_brick.name=§aFor the first time added item in otyacraft
 tooltip.seed.soil=Soil:%s
@@ -236,4 +237,4 @@ advancements.otyacraft.byproductoftea.description=Acquire tea flower
 advancements.otyacraft.Industrialbuildingmaterials.title=Industrial building materials
 advancements.otyacraft.Industrialbuildingmaterials.description=craft factory block
 #Messege#
-messege.goodwether.name=Today is good sunny day
+messege.goodwether.name=Today is good sunny day☆

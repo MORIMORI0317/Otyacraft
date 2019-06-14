@@ -20,7 +20,7 @@ public class Block_ruby_ore extends Block {
         super(Material.ROCK);
         this.setRegistryName(Variable.MODID,"ruby_ore");
         this.setUnlocalizedName("rubyore");
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setSoundType(SoundType.STONE);
         this.setHardness(3.0F);
         this.setResistance(15.0F);

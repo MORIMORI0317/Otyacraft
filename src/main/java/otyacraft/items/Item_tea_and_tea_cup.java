@@ -17,7 +17,7 @@ public class Item_tea_and_tea_cup extends ItemFood {
 	public Item_tea_and_tea_cup(int amount, float saturation, boolean isWolfFood ,String Rname ,String Uname) {
 	        super(amount, saturation, isWolfFood);
 	        this.setRegistryName(Variable.MODID, Rname);
-	        this.setCreativeTab(OCCreativetabs.FOOD);
+	        this.setCreativeTab(OCCreativetabs.OCTAB);
 	        this.setUnlocalizedName(Uname);
 	        this.setMaxStackSize(1);
 	        this.setAlwaysEdible();

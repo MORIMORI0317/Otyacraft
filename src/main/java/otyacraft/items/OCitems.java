@@ -24,12 +24,12 @@ public class OCitems {
     public static final Item LEAD_INGOT = new Item_oc_materia("lead","ingot");
     public static final Item NICKEL_INGOT = new Item_oc_materia("nickel","ingot");
     public static final Item SILVER_INGOT = new Item_oc_materia("silver","ingot");
-    public static final Item RUBY = new Item().setRegistryName("ruby").setUnlocalizedName("ruby").setCreativeTab(OCCreativetabs.MISC);
-    public static final Item SAPPHIRE = new Item().setRegistryName("sapphire").setUnlocalizedName("sapphire").setCreativeTab(OCCreativetabs.MISC);
+    public static final Item RUBY = new Item().setRegistryName("ruby").setUnlocalizedName("ruby").setCreativeTab(OCCreativetabs.OCTAB);
+    public static final Item SAPPHIRE = new Item().setRegistryName("sapphire").setUnlocalizedName("sapphire").setCreativeTab(OCCreativetabs.OCTAB);
     public static final Item PERMAFROST_INGOT = new Item_oc_materia("permafrost","ingot");
     public static final Item CENTERL_INGOT = new Item_oc_materia("centerl","ingot");
     public static final Item FICTNIUM_INGOT = new Item_oc_materia("fictnium","ingot");
-    public static final Item REALITE = new Item().setRegistryName("realite").setUnlocalizedName("realite").setCreativeTab(OCCreativetabs.MISC);
+    public static final Item REALITE = new Item().setRegistryName("realite").setUnlocalizedName("realite").setCreativeTab(OCCreativetabs.OCTAB);
     public static final Item COPPER_NUGGET = new Item_oc_materia("copper","nugget");
     public static final Item TIN_NUGGET = new Item_oc_materia("tin","nugget");
     public static final Item LEAD_NUGGET = new Item_oc_materia("lead","nugget");
@@ -43,21 +43,21 @@ public class OCitems {
     public static final Item NICKEL_GEAR = new Item_oc_materia("nickel","gear");
     public static final Item CENTERL_GEAR = new Item_oc_materia("centerl","gear");
     public static final Item SILVER_GEAR = new Item_oc_materia("silver","gear");
-    public static final Item PERMAFROST_POWDER = new Item().setRegistryName("permafrost_powder").setUnlocalizedName("permafrostpowder").setCreativeTab(OCCreativetabs.MISC);
-    public static final Item TEA_LEAVES = new Item().setRegistryName("tea_leaves").setUnlocalizedName("tealeaves").setCreativeTab(OCCreativetabs.MISC);
-    public static final Item TEA_CUP = new Item().setRegistryName("tea_cup").setUnlocalizedName("teacup").setCreativeTab(OCCreativetabs.MISC);
-    public static final Item TEA_LEAVES_POWDER = new Item().setRegistryName("tea_leaves_powder").setUnlocalizedName("tealeavespowder").setCreativeTab(OCCreativetabs.MISC);
+    public static final Item PERMAFROST_POWDER = new Item().setRegistryName("permafrost_powder").setUnlocalizedName("permafrostpowder").setCreativeTab(OCCreativetabs.OCTAB);
+    public static final Item TEA_LEAVES = new Item().setRegistryName("tea_leaves").setUnlocalizedName("tealeaves").setCreativeTab(OCCreativetabs.OCTAB);
+    public static final Item TEA_CUP = new Item().setRegistryName("tea_cup").setUnlocalizedName("teacup").setCreativeTab(OCCreativetabs.OCTAB);
+    public static final Item TEA_LEAVES_POWDER = new Item().setRegistryName("tea_leaves_powder").setUnlocalizedName("tealeavespowder").setCreativeTab(OCCreativetabs.OCTAB);
     public static final Item NEEDLE = new Item_needle();
-    public static final Item BROKEN_NEEDLE = new Item_oc_unused().setRegistryName("broken_needle").setUnlocalizedName("brokenneedle").setCreativeTab(OCCreativetabs.MISC);
-    public static final Item OTYACRFT_DICTIONARY = new Item_oc_unused().setRegistryName("oc_dictionary").setUnlocalizedName("otyacraftdictionary").setCreativeTab(OCCreativetabs.MISC).setMaxStackSize(1);
+    public static final Item BROKEN_NEEDLE = new Item_oc_unused().setRegistryName("broken_needle").setUnlocalizedName("brokenneedle").setCreativeTab(OCCreativetabs.OCTAB);
+    public static final Item OTYACRFT_DICTIONARY = new Item_oc_unused().setRegistryName("oc_dictionary").setUnlocalizedName("otyacraftdictionary").setCreativeTab(OCCreativetabs.OCTAB).setMaxStackSize(1);
     public static final Item TEA_AND_TEA_CUP = new Item_tea_and_tea_cup(4, 0.3F, false,"tea_and_tea_cup","teaandteacup");
     public static final Item SILVER_APPLE = new Item_silver_apple(4, 0.3F, false);
     public static final Item TEA_SEED = new Item_seed(OCblocks.TEA_CROP,Blocks.FARMLAND,"tea");
-    public static final Item TEA_FLOWER = new Item().setRegistryName("tea_flower").setUnlocalizedName("teaflower").setCreativeTab(OCCreativetabs.MISC);
+    public static final Item TEA_FLOWER = new Item().setRegistryName("tea_flower").setUnlocalizedName("teaflower").setCreativeTab(OCCreativetabs.OCTAB);
     public static final Item OLD_RADEON = new Item_oc_radeon();
     public static final Item ENCHANTED_SILVER_APPLE = new ItemAppleSILVEREnchanted(4, 0.3F, false);
-    public static final Item RADEON_VII = new Item().setRegistryName("radeon_vii").setUnlocalizedName("radeonvii").setCreativeTab(OCCreativetabs.MISC).setMaxStackSize(1);
-    public static final Item RADEON_PRO_V340 = new Item().setRegistryName("radeon_pro_v340").setUnlocalizedName("radeonprov340").setCreativeTab(OCCreativetabs.MISC).setMaxStackSize(1);
+    public static final Item RADEON_VII = new Item().setRegistryName("radeon_vii").setUnlocalizedName("radeonvii").setCreativeTab(OCCreativetabs.OCTAB).setMaxStackSize(1);
+    public static final Item RADEON_PRO_V340 = new Item().setRegistryName("radeon_pro_v340").setUnlocalizedName("radeonprov340").setCreativeTab(OCCreativetabs.OCTAB).setMaxStackSize(1);
     //Tool and Armor ツールと装備
     public static final Item SECOND_GRILLED_BRICK_SWORD = new Item_oc_nomal_sword("sgb",OCToolMaterial.SGB);
     public static final Item SECOND_GRILLED_BRICK_SHOVEL = new Item_oc_nomal_shovel("sgb",OCToolMaterial.SGB);
@@ -150,6 +150,8 @@ public class OCitems {
     public static final Item PERMAFROST_LEGGINGS = new Item_oc_nomal_armor("permafrostleggings","permafrost_leggings",OCToolMaterial.permafrost_A,2,EntityEquipmentSlot.LEGS);
     public static final Item PERMAFROST_BOOTS = new Item_oc_nomal_armor("permafrostboots","permafrost_boots",OCToolMaterial.permafrost_A,1,EntityEquipmentSlot.FEET);
     public static final Item REFI_SWORD = new Item_REFI_sword();
+    public static final Item EXCALIBUR_MODOKI_SWORD = new Item_oc_nomal_sword("excalibur_modoki",OCToolMaterial.EXCALIBUR_MODOKI).setFull3D();
+
     @SubscribeEvent
     public static void registerItem(IForgeRegistry<Item> items) {
     	//Item register アイテム登録
@@ -191,6 +193,10 @@ public class OCitems {
     		   TEA_SEED,
     		   TEA_FLOWER,
     		   OLD_RADEON,
+    		   RADEON_VII,
+    		   RADEON_PRO_V340,
+    		   ENCHANTED_SILVER_APPLE,
+
     		   SECOND_GRILLED_BRICK_SWORD,
     		   SECOND_GRILLED_BRICK_SHOVEL,
     		   SECOND_GRILLED_BRICK_PICKAXE,
@@ -282,9 +288,7 @@ public class OCitems {
     		   PERMAFROST_LEGGINGS,
     		   PERMAFROST_BOOTS,
     		   REFI_SWORD,
-    		   RADEON_VII,
-    		   RADEON_PRO_V340,
-    		   ENCHANTED_SILVER_APPLE);
+    		   EXCALIBUR_MODOKI_SWORD);
     }
 
     @SubscribeEvent
@@ -422,5 +426,6 @@ public class OCitems {
         ModelLoader.setCustomModelResourceLocation(RADEON_PRO_V340, 0, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "radeon_pro_v340"), "inventory"));
         ModelLoader.setCustomModelResourceLocation(REFI_SWORD, 0, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "refi_sword"), "inventory"));
         ModelLoader.setCustomModelResourceLocation(ENCHANTED_SILVER_APPLE, 0, new ModelResourceLocation(new ResourceLocation(Variable.MODID, "silver_apple"), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(EXCALIBUR_MODOKI_SWORD, 0, new ModelResourceLocation(new ResourceLocation("minecraft", "cod"), "inventory"));
     }
 }

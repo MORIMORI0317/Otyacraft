@@ -11,7 +11,7 @@ public class Block_ore_block extends Block {
         super(Material.ROCK);
         this.setRegistryName(Variable.MODID,name+"_block");
         this.setUnlocalizedName(name+"block");
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setSoundType(SoundType.METAL);
         this.setHardness(Hardness);
         this.setResistance(Resistance);

@@ -25,7 +25,7 @@ public class Block_realite_ore extends Block {
         super(Material.ROCK);
         this.setRegistryName(Variable.MODID,"realite_ore");
         this.setUnlocalizedName("realiteore");
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setSoundType(SoundType.STONE);
         this.setHardness(0F);
         this.setResistance(99999F);

@@ -15,7 +15,7 @@ public class Item_oc_materia extends Item {
 
 
 	        this.setRegistryName(Variable.MODID, name+"_"+tyape);
-	        this.setCreativeTab(OCCreativetabs.MISC);
+	        this.setCreativeTab(OCCreativetabs.OCTAB);
 	        this.setUnlocalizedName(name+tyape);
 	    }
 

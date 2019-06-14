@@ -12,7 +12,7 @@ public class Block_fictnium_block extends Block {
         this.setRegistryName(Variable.MODID,"fictnium_block");
         this.setUnlocalizedName("fictniumblock");
         this.setSoundType(SoundType.METAL);
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setHardness(3.0F);
         this.setResistance(0.0F);
     }

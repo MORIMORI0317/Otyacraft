@@ -9,7 +9,7 @@ public class Item_second_grilled_brick_shield extends ItemShield {
 	        super();
 
 	        this.setRegistryName(Variable.MODID, "second_grilled_brick_shield");
-	        this.setCreativeTab(OCCreativetabs.TOOL);
+	        this.setCreativeTab(OCCreativetabs.OCTAB);
 	        this.setUnlocalizedName("secondgrilledbrickshield");
 	        this.maxStackSize = 1;
 	        this.setMaxDamage(336);

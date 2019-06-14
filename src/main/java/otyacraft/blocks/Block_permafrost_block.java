@@ -19,7 +19,7 @@ public class Block_permafrost_block extends Block {
         super(Material.ICE);
         this.setRegistryName(Variable.MODID,Rname);
         this.setUnlocalizedName(namein);
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setSoundType(SoundType.GLASS);
         this.setHardness(5.0F);
         this.setResistance(10.0F);

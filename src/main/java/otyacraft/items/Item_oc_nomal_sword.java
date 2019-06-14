@@ -7,7 +7,7 @@ public class Item_oc_nomal_sword extends ItemSword {
 	public Item_oc_nomal_sword(String nameIn,ToolMaterial toolIn) {
 		super(toolIn);
 	        this.setRegistryName(Variable.MODID, nameIn+"_sword");
-	        this.setCreativeTab(OCCreativetabs.TOOL);
+	        this.setCreativeTab(OCCreativetabs.OCTAB);
 	        this.setUnlocalizedName(nameIn+"sword");
 	    }
 

@@ -22,7 +22,7 @@ public class Item_seed extends ItemSeeds {
 	        super(nae, soil);
 	        this.soils =soil;
 	        this.setRegistryName(Variable.MODID, nameIn+"_seed");
-	        this.setCreativeTab(OCCreativetabs.MISC);
+	        this.setCreativeTab(OCCreativetabs.OCTAB);
 	        this.setUnlocalizedName(nameIn+"seed");
 	    }
 

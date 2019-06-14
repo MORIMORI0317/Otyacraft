@@ -12,7 +12,7 @@ public class Block_clear_glass extends Block {
         super(Material.GLASS);
         this.setRegistryName(Variable.MODID,"clear_glass");
         this.setUnlocalizedName("clearglass");
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setSoundType(SoundType.GLASS);
         this.setHardness(5.0F);
         this.setResistance(10.0F);

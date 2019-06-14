@@ -11,7 +11,7 @@ public class Block_nomal_ore extends Block {
         super(Material.ROCK);
         this.setRegistryName(Variable.MODID,name+"_ore");
         this.setUnlocalizedName(name+"ore");
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setSoundType(SoundType.STONE);
         this.setHardness(Hardness);
         this.setResistance(Resistance);

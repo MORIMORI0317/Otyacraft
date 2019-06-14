@@ -31,7 +31,7 @@ public class Block_wild_tea_seedlings extends Block {
         super(Material.WOOD);
         this.setRegistryName(Variable.MODID,"wild_tea_seedlings");
         this.setUnlocalizedName("wildteaseedlings");
-        this.setCreativeTab(OCCreativetabs.BUILDING);
+        this.setCreativeTab(OCCreativetabs.OCTAB);
         this.setSoundType(SoundType.PLANT);
         this.setHardness(2.5F);
         this.setResistance(1.0F);

@@ -18,7 +18,7 @@ public class Item_second_grilled_brick extends Item {
 	public Item_second_grilled_brick() {
 	        super();
 	        this.setRegistryName(Variable.MODID, "second_grilled_brick");
-	        this.setCreativeTab(OCCreativetabs.MISC);
+	        this.setCreativeTab(OCCreativetabs.OCTAB);
 	        this.setUnlocalizedName("secondgrilledbrick");
 	    }
     @SideOnly(Side.CLIENT)
