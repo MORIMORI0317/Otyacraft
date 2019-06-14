@@ -1,1 +1,0 @@
-https://minecraft.curseforge.com/projects/otyacraftmod
