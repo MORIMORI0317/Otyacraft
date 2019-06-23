@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:second_grilled_brick_block" }
+        "": { "model": "otyacraft:block/second_grilled_brick_block" }
     }
 }

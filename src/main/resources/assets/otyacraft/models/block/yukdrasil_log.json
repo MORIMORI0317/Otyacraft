@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "otyacraft:blocks/yukdrasil_log_top",
+        "side": "otyacraft:blocks/yukdrasil_log"
+    }
+}

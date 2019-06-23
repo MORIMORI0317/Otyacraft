@@ -1,0 +1,46 @@
+modLoader="javafml" 
+
+loaderVersion="[25,)" #mandatory (24 is current forge version)
+
+issueTrackerURL="http://my.issue.tracker/"
+
+[[mods]] 
+
+modId="otyacraft" 
+
+version="1.4" 
+
+displayName="Otyacraft" 
+
+updateJSONURL="http://myurl.me/" 
+
+displayURL="https://minecraft.curseforge.com/projects/otyacraftmod" #optional
+
+logoFile="otycraft_logo.png" 
+
+credits=""
+
+authors="MORIMORI0317" 
+
+description='''
+Thank you for downloading!
+
+'''
+
+[[dependencies.otyacraft]] 
+
+    modId="forge" 
+
+    mandatory=true 
+    versionRange="[25,)" 
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.otyacraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.13.2]"
+    ordering="NONE"
+    side="BOTH"

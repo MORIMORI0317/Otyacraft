@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:fictnium_block" }
+        "": { "model": "otyacraft:block/fictnium_block" }
     }
 }

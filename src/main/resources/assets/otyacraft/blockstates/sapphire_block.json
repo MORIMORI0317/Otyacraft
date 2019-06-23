@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:sapphire_block" }
+        "": { "model": "otyacraft:block/sapphire_block" }
     }
 }

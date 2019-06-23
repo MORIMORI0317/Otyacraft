@@ -1,10 +1,5 @@
 {
     "variants": {
-        "normal": [
-            { "model": "otyacraft:wild_tea_seedlings" },
-            { "model": "otyacraft:wild_tea_seedlings", "y": 90 },
-            { "model": "otyacraft:wild_tea_seedlings", "y": 180 },
-            { "model": "otyacraft:wild_tea_seedlings", "y": 270 }
-        ]
+        "": { "model": "otyacraft:block/wild_tea_seedlings" }
     }
 }

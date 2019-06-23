@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:big_egg" }
+        "": { "model": "otyacraft:block/big_egg" }
     }
 }

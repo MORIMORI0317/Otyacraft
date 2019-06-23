@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:leather_string_block" }
+        "": { "model": "otyacraft:block/leather_string_block" }
     }
 }
