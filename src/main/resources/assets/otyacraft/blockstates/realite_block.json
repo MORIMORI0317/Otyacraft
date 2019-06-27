@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:realite_block" }
+        "": { "model": "otyacraft:block/realite_block" }
     }
 }

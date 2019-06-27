@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "variant=0": { "model": "otyacraft:iron_factory_block" }
-        "variant=1": { "model": "otyacraft:copper_factory_block" }
-        "variant=2": { "model": "otyacraft:tin_factory_block" }
-    }
-}

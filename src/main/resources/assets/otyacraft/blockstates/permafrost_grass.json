@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:permafrost_grass" }
+        "": { "model": "otyacraft:block/permafrost_grass" }
     }
 }

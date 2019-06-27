@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:tin_ore" }
+        "": { "model": "otyacraft:block/tin_ore" }
     }
 }

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":    { "model": "otyacraft:block/yukdrasil_log" },
+        "axis=z":     { "model": "otyacraft:block/yukdrasil_log", "x": 90 },
+        "axis=x":     { "model": "otyacraft:block/yukdrasil_log", "x": 90, "y": 90 }
+    }
+}

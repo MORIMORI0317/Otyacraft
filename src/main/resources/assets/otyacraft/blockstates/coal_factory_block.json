@@ -1,8 +1,8 @@
 {
     "variants": {
-        "normal": [
-            { "model": "otyacraft:coal_factory_block","weight":9999},
-            { "model": "otyacraft:coal_factory_block_gear","weight":1}
+        "": [
+            { "model": "otyacraft:block/coal_factory_block","weight":9999},
+            { "model": "otyacraft:block/coal_factory_block_gear","weight":1}
         ]
     }
 }

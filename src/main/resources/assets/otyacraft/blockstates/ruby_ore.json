@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:ruby_ore" }
+        "": { "model": "otyacraft:block/ruby_ore" }
     }
 }

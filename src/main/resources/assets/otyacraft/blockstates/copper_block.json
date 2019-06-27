@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:copper_block" }
+        "": { "model": "otyacraft:block/copper_block" }
     }
 }

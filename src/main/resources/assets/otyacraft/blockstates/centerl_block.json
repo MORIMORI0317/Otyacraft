@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:centerl_block" }
+        "": { "model": "otyacraft:block/centerl_block" }
     }
 }

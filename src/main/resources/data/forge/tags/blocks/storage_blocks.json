@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "otyacraft:copper_block",
+    "otyacraft:lead_block",
+    "otyacraft:tin_block",
+    "otyacraft:centerl_block",
+    "otyacraft:silver_block",
+    "otyacraft:nickel_block"
+  ]
+}

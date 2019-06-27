@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:lead_ore" }
+        "": { "model": "otyacraft:block/lead_ore" }
     }
 }

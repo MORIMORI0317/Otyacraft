@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "otyacraft:silver_block" }
+        "": { "model": "otyacraft:block/silver_block" }
     }
 }
