@@ -22,6 +22,8 @@ public class OCmaterialType {
 	   public static final OCmaterialType AXE = new OCmaterialType ("axe",null,null);
 	   public static final OCmaterialType HOE = new OCmaterialType ("hoe",null,null);
 	   public static final OCmaterialType POWDER = new OCmaterialType ("powder",null,null);
+	   public static final OCmaterialType PLATE = new OCmaterialType ("plate",null,null);
+	   public static final OCmaterialType MORTAR = new OCmaterialType ("mortar",null,null);
 
 	public OCmaterialType(String name,Material matela,SoundType sound) {
 		this.materialname = name;

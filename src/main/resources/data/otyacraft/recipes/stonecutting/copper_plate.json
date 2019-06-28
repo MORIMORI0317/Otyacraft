@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "tag": "forge:storage_blocks/copper"
+    },
+    "result": "otyacraft:copper_plate",
+    "count": 9
+  }

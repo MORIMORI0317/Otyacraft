@@ -16,7 +16,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 public class MODBlocks {
     public static final Block TEST = new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)).setRegistryName(Variable.MODID,"test_block");
-    public static final Block SECOND_GRILLED_BRICK_BLOCK = new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(5F, 10F)).setRegistryName(Variable.MODID,"second_grilled_brick_block");
+    public static final Block SECOND_GRILLED_BRICK_BLOCK = new OCBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(5F, 10F)).setRegistryName(Variable.MODID,"second_grilled_brick_block");
     public static final Block COPPER_ORE = new BlockSame(OCMaterial.COPPER,OCmaterialType.ORE,3F, 15F);
     public static final Block LEAD_ORE = new BlockSame(OCMaterial.LEAD,OCmaterialType.ORE,3F, 15F);
     public static final Block NICKEL_ORE = new BlockSame(OCMaterial.NICKEL,OCmaterialType.ORE,3F, 15F);
@@ -29,6 +29,7 @@ public class MODBlocks {
     public static final Block TIN_BLOCK = new BlockSame(OCMaterial.TIN,OCmaterialType.BLOCK,3F, 15F);
     public static final Block CENTERL_BLOCK = new BlockSame(OCMaterial.CENTERL,OCmaterialType.BLOCK,5F, 30F);
     public static final Block SILVER_BLOCK = new BlockSame(OCMaterial.SILVER,OCmaterialType.BLOCK,3F, 15F);
+    public static final Block FICTNIUM_BLOCK = new BlockSame(OCMaterial.FICTNIUM,OCmaterialType.BLOCK,5F, 30F);
     public static final Block IRON_FACTORY_BLOCK = new BlockSame(OCMaterial.IRON,OCmaterialType.FACTORY_BLOCK,3F, 15F);
     public static final Block COPPER_FACTORY_BLOCK = new BlockSame(OCMaterial.COPPER,OCmaterialType.FACTORY_BLOCK,3F, 15F);
     public static final Block TIN_FACTORY_BLOCK = new BlockSame(OCMaterial.TIN,OCmaterialType.FACTORY_BLOCK,3F, 15F);
@@ -79,7 +80,14 @@ public class MODBlocks {
     			CENTERL_FACTORY_BLOCK,
     			SILVER_FACTORY_BLOCK,
     			LEATHER_STRING_BLOCK,
-    			LEATHER_BLOCK
+    			LEATHER_BLOCK,
+    			COPPER_BLOCK,
+    			LEAD_BLOCK,
+    			NICKEL_BLOCK,
+    			TIN_BLOCK,
+    			CENTERL_BLOCK,
+    			SILVER_BLOCK,
+    			FICTNIUM_BLOCK
     			);
     }
 
@@ -117,7 +125,16 @@ public class MODBlocks {
            			  new ItemBlockSame(RUBY_FACTORY_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.RUBY,OCmaterialType.FACTORY_BLOCK),
            			  new ItemBlockSame(SAPPHIRE_FACTORY_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.SAPPHIRE,OCmaterialType.FACTORY_BLOCK),
            			  new ItemBlockSame(CENTERL_FACTORY_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.CENTERL,OCmaterialType.FACTORY_BLOCK),
-           			  new ItemBlockSame(SILVER_FACTORY_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.SILVER,OCmaterialType.FACTORY_BLOCK)
+           			  new ItemBlockSame(SILVER_FACTORY_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.SILVER,OCmaterialType.FACTORY_BLOCK),
+
+           			  new ItemBlockSame(TIN_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.TIN,OCmaterialType.BLOCK),
+           			  new ItemBlockSame(CENTERL_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.CENTERL,OCmaterialType.BLOCK),
+           			  new ItemBlockSame(SILVER_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.SILVER,OCmaterialType.BLOCK),
+           			  new ItemBlockSame(NICKEL_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.NICKEL,OCmaterialType.BLOCK),
+           			  new ItemBlockSame(LEAD_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.LEAD,OCmaterialType.BLOCK),
+           			  new ItemBlockSame(COPPER_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.COPPER,OCmaterialType.BLOCK),
+           			  new ItemBlockSame(FICTNIUM_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.FICTNIUM,OCmaterialType.BLOCK)
+
 
 
 

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "tag": "forge:storage_blocks/silver"
+    },
+    "result": "otyacraft:silver_plate",
+    "count": 9
+  }

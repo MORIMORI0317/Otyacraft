@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "tag": "forge:storage_blocks/fictnium"
+    },
+    "result": "otyacraft:fictnium_plate",
+    "count": 9
+  }

@@ -29,7 +29,9 @@
     "item.axe.loacl": "%sの斧",
     "item.hoe.loacl": "%sのクワ",   
     "item.powder.loacl": "%sパウダー",  
-    
+   	"item.plate.loacl": "%s板",   
+    "item.mortar.loacl": "%sのすり鉢",
+
     
 	//Blocks
 	"block.otyacraft.test_block": "テストブロック",

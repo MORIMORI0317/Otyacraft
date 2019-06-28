@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "minecraft:glass"
+  },
+  "result": "otyacraft:lens",
+  "experience": 1,
+  "cookingtime": 6000
+}

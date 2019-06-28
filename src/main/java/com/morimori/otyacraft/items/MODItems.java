@@ -13,7 +13,6 @@ public class MODItems {
 
     public static final Item TEST = new Item(new Item.Properties()).setRegistryName(Variable.MODID,"test_item");
     public static final Item SECOND_GRILLED_BRICK = new Item_usetooltip(new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID,"second_grilled_brick");
-
     public static final Item COPPER_INGOT = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.COPPER,OCmaterialType.INGOT);
     public static final Item TIN_INGOT = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.TIN,OCmaterialType.INGOT);
     public static final Item LEAD_INGOT = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.LEAD,OCmaterialType.INGOT);
@@ -22,7 +21,6 @@ public class MODItems {
     public static final Item PERMAFROST_INGOT = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.PERMAFROST,OCmaterialType.INGOT);
     public static final Item CENTERL_INGOT = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.CENTERL,OCmaterialType.INGOT);
     public static final Item FICTNIUM_INGOT = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.FICTNIUM,OCmaterialType.INGOT);
-
     public static final Item RUBY = new Item(new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID,"ruby");
     public static final Item SAPPHIRE = new Item(new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID,"sapphire");
     public static final Item REALITE = new Item(new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID,"realite");
@@ -34,8 +32,6 @@ public class MODItems {
     public static final Item CENTERL_NUGGET = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.CENTERL,OCmaterialType.NUGGET);
     public static final Item FICTNIUM_NUGGET = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.FICTNIUM,OCmaterialType.NUGGET);
     public static final Item PERMAFROST_NUGGET = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.PERMAFROST,OCmaterialType.NUGGET);
-
-
     public static final Item COPPER_POWDER = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.COPPER,OCmaterialType.POWDER);
     public static final Item TIN_POWDER = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.TIN,OCmaterialType.POWDER);
     public static final Item LEAD_POWDER = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.LEAD,OCmaterialType.POWDER);
@@ -45,8 +41,6 @@ public class MODItems {
     public static final Item FICTNIUM_POWDER = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.FICTNIUM,OCmaterialType.POWDER);
     public static final Item PERMAFROST_POWDER = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.PERMAFROST,OCmaterialType.POWDER);
     public static final Item IRON_POWDER = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.IRON,OCmaterialType.POWDER);
-
-
     public static final Item IRON_GEAR = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.IRON,OCmaterialType.GEAR);
     public static final Item COPPER_GEAR = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.COPPER,OCmaterialType.GEAR);
     public static final Item TIN_GEAR = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.TIN,OCmaterialType.GEAR);
@@ -67,7 +61,41 @@ public class MODItems {
     public static final Item ANALOG_METER = new Item(new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID,"analog_meter");
     public static final Item DISPOSABLE_BATTERY = new Item(new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID,"disposable_battery");
     public static final Item COPPER_SWORD = new ItemSameSword(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.COPPER);
+    public static final Item RUBY_SWORD = new ItemSameSword(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.RUBY);
+    public static final Item SAPPHIRE_SWORD = new ItemSameSword(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SAPPHIRE);
+    public static final Item CENTERL_SWORD = new ItemSameSword(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.CENTERL);
+    public static final Item PERMAFROSTL_SWORD = new ItemSameSword(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.PERMAFROST);
+    public static final Item SECOND_GRILLED_BRICK_SWORD = new ItemSameSword(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SECOND_GRILLED_BRICK);
+    public static final Item COPPER_SHOVEL = new ItemSameShovel((new Item.Properties().group(OCItemGroups.OCTAB)), OCMaterial.COPPER);
+    public static final Item RUBY_SHOVEL = new ItemSameShovel(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.RUBY);
+    public static final Item SAPPHIRE_SHOVEL = new ItemSameShovel(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SAPPHIRE);
+    public static final Item CENTERL_SHOVEL = new ItemSameShovel(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.CENTERL);
+    public static final Item PERMAFROSTL_SHOVEL = new ItemSameShovel(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.PERMAFROST);
+    public static final Item SECOND_GRILLED_BRICK_SHOVEL = new ItemSameShovel(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SECOND_GRILLED_BRICK);
+    public static final Item COPPER_PICKAXE = new ItemSamePickaxe((new Item.Properties().group(OCItemGroups.OCTAB)), OCMaterial.COPPER);
+    public static final Item RUBY_PICKAXE = new ItemSamePickaxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.RUBY);
+    public static final Item SAPPHIRE_PICKAXE = new ItemSamePickaxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SAPPHIRE);
+    public static final Item CENTERL_PICKAXE = new ItemSamePickaxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.CENTERL);
+    public static final Item PERMAFROSTL_PICKAXE = new ItemSamePickaxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.PERMAFROST);
+    public static final Item SECOND_GRILLED_BRICK_PICKAXE = new ItemSamePickaxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SECOND_GRILLED_BRICK);
 
+    public static final Item COPPER_AXE = new ItemSameAxe((new Item.Properties().group(OCItemGroups.OCTAB)), OCMaterial.COPPER);
+    public static final Item RUBY_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.RUBY);
+    public static final Item SAPPHIRE_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SAPPHIRE);
+    public static final Item CENTERL_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.CENTERL);
+    public static final Item PERMAFROSTL_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.PERMAFROST);
+    public static final Item SECOND_GRILLED_BRICK_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SECOND_GRILLED_BRICK);
+    public static final Item IRON_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.IRON,OCmaterialType.PLATE);
+    public static final Item COPPER_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.COPPER,OCmaterialType.PLATE);
+    public static final Item TIN_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.TIN,OCmaterialType.PLATE);
+    public static final Item LEAD_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.LEAD,OCmaterialType.PLATE);
+    public static final Item NICKEL_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.NICKEL,OCmaterialType.PLATE);
+    public static final Item SILVER_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.SILVER,OCmaterialType.PLATE);
+    public static final Item CENTERL_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.CENTERL,OCmaterialType.PLATE);
+    public static final Item FICTNIUM_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.FICTNIUM,OCmaterialType.PLATE);
+    public static final Item PERMAFROST_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.PERMAFROST,OCmaterialType.PLATE);
+
+    public static final Item TEST_MORTAR = new ItemSameCraftingTool(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.COPPER,OCmaterialType.MORTAR);
 
     @SubscribeEvent
     public static void registerItem(RegistryEvent.Register<Item> items) {
@@ -75,33 +103,33 @@ public class MODItems {
     	items.getRegistry().registerAll(
 
 
-    			SECOND_GRILLED_BRICK,
-    			TEST,
-    			COPPER_INGOT,
-    			TIN_INGOT,
-    			LEAD_INGOT,
-    			NICKEL_INGOT,
-    			SILVER_INGOT,
-    			PERMAFROST_INGOT,
-    			CENTERL_INGOT,
-    			FICTNIUM_INGOT,
-    			RUBY,
-    			SAPPHIRE,
-    			REALITE,
-    			COPPER_NUGGET,
-    			TIN_NUGGET,
-    			LEAD_NUGGET,
-    			NICKEL_NUGGET,
-    			SILVER_NUGGET,
-    			CENTERL_NUGGET,
-    			FICTNIUM_NUGGET,
-    			PERMAFROST_NUGGET,
-    		    COPPER_POWDER,
-    		    TIN_POWDER,
-    		    LEAD_POWDER,
-    		    NICKEL_POWDER,
-    		    SILVER_POWDER,
-    		    CENTERL_POWDER,
+    			SECOND_GRILLED_BRICK,COPPER_SHOVEL,
+    			TEST,RUBY_SHOVEL,
+    			COPPER_INGOT,SAPPHIRE_SHOVEL,
+    			TIN_INGOT,CENTERL_SHOVEL,
+    			LEAD_INGOT,PERMAFROSTL_SHOVEL,
+    			NICKEL_INGOT,SECOND_GRILLED_BRICK_SWORD,
+    			SILVER_INGOT,SECOND_GRILLED_BRICK_SHOVEL,
+    			PERMAFROST_INGOT,RUBY_PICKAXE,COPPER_PICKAXE,
+    			CENTERL_INGOT,SAPPHIRE_PICKAXE,
+    			FICTNIUM_INGOT,CENTERL_PICKAXE,
+    			RUBY,PERMAFROSTL_PICKAXE,
+    			SAPPHIRE,SECOND_GRILLED_BRICK_PICKAXE,
+    			REALITE,COPPER_AXE,
+    			COPPER_NUGGET,RUBY_AXE,
+    			TIN_NUGGET,SAPPHIRE_AXE,
+    			LEAD_NUGGET,CENTERL_AXE,
+    			NICKEL_NUGGET,PERMAFROSTL_AXE,
+    			SILVER_NUGGET,SECOND_GRILLED_BRICK_AXE,
+    			CENTERL_NUGGET,IRON_PLATE,
+    			FICTNIUM_NUGGET,COPPER_PLATE,
+    			PERMAFROST_NUGGET,TIN_PLATE,
+    		    COPPER_POWDER,LEAD_PLATE,
+    		    TIN_POWDER,NICKEL_PLATE,
+    		    LEAD_POWDER,SILVER_PLATE,
+    		    NICKEL_POWDER,CENTERL_PLATE,
+    		    SILVER_POWDER,FICTNIUM_PLATE,
+    		    CENTERL_POWDER,PERMAFROST_PLATE,
     		    FICTNIUM_POWDER,
     		    PERMAFROST_POWDER,
     		    IRON_POWDER,
@@ -125,9 +153,11 @@ public class MODItems {
     			CIRCUIT_BOARD,
     			ANALOG_METER,
     			DISPOSABLE_BATTERY,
-    			COPPER_SWORD
-
-
+    			COPPER_SWORD,
+    			RUBY_SWORD,
+    			SAPPHIRE_SWORD,
+    			CENTERL_SWORD,
+    			PERMAFROSTL_SWORD
 
     			);
 

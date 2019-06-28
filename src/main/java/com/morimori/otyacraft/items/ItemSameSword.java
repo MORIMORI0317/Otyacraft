@@ -5,7 +5,6 @@ import com.morimori.otyacraft.materia.OCMaterial;
 import com.morimori.otyacraft.materia.OCmaterialType;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemTier;
 import net.minecraft.item.SwordItem;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TranslationTextComponent;
@@ -17,7 +16,7 @@ public class ItemSameSword extends SwordItem {
 	private OCMaterial Matelia;
 
 	public ItemSameSword(Properties properties,OCMaterial materoal) {
-		super(ItemTier.IRON, 3, -2.4F,properties);
+		super(materoal.getTier(), 3, -2.4F,properties);
 		this.Mateliatype = OCmaterialType.SWORD;
 		this.Matelia = materoal;
 

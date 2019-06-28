@@ -31,7 +31,8 @@
     "item.axe.loacl": "%s Axe",
     "item.hoe.loacl": "%s Hoe",   
     "item.powder.loacl": "%s Powder",   
-       
+    "item.plate.loacl": "%s Plate",   
+    "item.mortar.loacl": "%s Mortar",
 
        
 	//Blocks
@@ -73,7 +74,7 @@
 	"material.sgb": "Second Grilled Brick",
 	//JEI_Info
     "gui.otyacraft.jei_info.second_grilled_brick": "For the first time added item in otyacraft.",   
-    "gui.otyacraft.jei_info.radeon_vii": "ネタアイテム。",   
+    "gui.otyacraft.jei_info.radeon_vii": "neta item。",   
      
 	//banner
 	"block.minecraft.banner.yunomi.black": "Black Yunomi",

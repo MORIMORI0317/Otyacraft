@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "tag": "forge:storage_blocks/nickel"
+    },
+    "result": "otyacraft:nickel_plate",
+    "count": 9
+  }
