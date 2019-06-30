@@ -16,7 +16,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 public class MODBlocks {
     public static final Block TEST = new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)).setRegistryName(Variable.MODID,"test_block");
-    public static final Block SECOND_GRILLED_BRICK_BLOCK = new OCBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(5F, 10F)).setRegistryName(Variable.MODID,"second_grilled_brick_block");
+    public static final Block SECOND_GRILLED_BRICK_BLOCK = new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(5F, 10F)).setRegistryName(Variable.MODID,"second_grilled_brick_block");
     public static final Block COPPER_ORE = new BlockSame(OCMaterial.COPPER,OCmaterialType.ORE,3F, 15F);
     public static final Block LEAD_ORE = new BlockSame(OCMaterial.LEAD,OCmaterialType.ORE,3F, 15F);
     public static final Block NICKEL_ORE = new BlockSame(OCMaterial.NICKEL,OCmaterialType.ORE,3F, 15F);
@@ -48,6 +48,8 @@ public class MODBlocks {
     public static final Block SILVER_FACTORY_BLOCK = new BlockSame(OCMaterial.SILVER,OCmaterialType.FACTORY_BLOCK,3F, 15F);
     public static final Block LEATHER_STRING_BLOCK = new Block(Block.Properties.create(Material.LEAVES, MaterialColor.BROWN).sound(SoundType.PLANT).hardnessAndResistance(1F, 5F)).setRegistryName(Variable.MODID,"leather_string_block");
     public static final Block LEATHER_BLOCK = new Block(Block.Properties.create(Material.LEAVES, MaterialColor.BROWN).sound(SoundType.PLANT).hardnessAndResistance(1F, 5F)).setRegistryName(Variable.MODID,"leather_block");
+
+    public static final Block WILD_TEA_SEEDLINGS = new BlockWildTeaSeedlings(Block.Properties.create(Material.WOOD, MaterialColor.AIR).sound(SoundType.PLANT).hardnessAndResistance(2.5F, 1.0F)).setRegistryName(Variable.MODID,"wild_tea_seedlings");
 
 
     @SubscribeEvent
@@ -87,7 +89,8 @@ public class MODBlocks {
     			TIN_BLOCK,
     			CENTERL_BLOCK,
     			SILVER_BLOCK,
-    			FICTNIUM_BLOCK
+    			FICTNIUM_BLOCK,
+    			WILD_TEA_SEEDLINGS
     			);
     }
 
@@ -101,6 +104,7 @@ public class MODBlocks {
         			  new BlockItem(SECOND_GRILLED_BRICK_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID, "second_grilled_brick_block"),
            			  new BlockItem(LEATHER_STRING_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID, "leather_string_block"),
            			  new BlockItem(LEATHER_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID, "leather_block"),
+           			  new BlockItem(WILD_TEA_SEEDLINGS, new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID, "wild_tea_seedlings"),
 
 
 

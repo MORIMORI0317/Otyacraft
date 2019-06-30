@@ -48,6 +48,15 @@ public class MODItems {
     public static final Item NICKEL_GEAR = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.NICKEL,OCmaterialType.GEAR);
     public static final Item CENTERL_GEAR = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.CENTERL,OCmaterialType.GEAR);
     public static final Item SILVER_GEAR = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.SILVER,OCmaterialType.GEAR);
+    public static final Item IRON_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.IRON,OCmaterialType.PLATE);
+    public static final Item COPPER_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.COPPER,OCmaterialType.PLATE);
+    public static final Item TIN_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.TIN,OCmaterialType.PLATE);
+    public static final Item LEAD_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.LEAD,OCmaterialType.PLATE);
+    public static final Item NICKEL_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.NICKEL,OCmaterialType.PLATE);
+    public static final Item SILVER_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.SILVER,OCmaterialType.PLATE);
+    public static final Item CENTERL_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.CENTERL,OCmaterialType.PLATE);
+    public static final Item FICTNIUM_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.FICTNIUM,OCmaterialType.PLATE);
+    public static final Item PERMAFROST_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.PERMAFROST,OCmaterialType.PLATE);
     public static final Item TEA_LEAVES_POWDER = new Item_powder(new Item.Properties().group(OCItemGroups.OCTAB),"tea_leaves");
     public static final Item TEA_LEAVES = new Item(new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID,"tea_leaves");
     public static final Item TEA_CUP = new Item(new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID,"tea_cup");
@@ -78,22 +87,22 @@ public class MODItems {
     public static final Item CENTERL_PICKAXE = new ItemSamePickaxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.CENTERL);
     public static final Item PERMAFROSTL_PICKAXE = new ItemSamePickaxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.PERMAFROST);
     public static final Item SECOND_GRILLED_BRICK_PICKAXE = new ItemSamePickaxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SECOND_GRILLED_BRICK);
-
     public static final Item COPPER_AXE = new ItemSameAxe((new Item.Properties().group(OCItemGroups.OCTAB)), OCMaterial.COPPER);
     public static final Item RUBY_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.RUBY);
     public static final Item SAPPHIRE_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SAPPHIRE);
     public static final Item CENTERL_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.CENTERL);
     public static final Item PERMAFROSTL_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.PERMAFROST);
     public static final Item SECOND_GRILLED_BRICK_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SECOND_GRILLED_BRICK);
-    public static final Item IRON_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.IRON,OCmaterialType.PLATE);
-    public static final Item COPPER_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.COPPER,OCmaterialType.PLATE);
-    public static final Item TIN_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.TIN,OCmaterialType.PLATE);
-    public static final Item LEAD_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.LEAD,OCmaterialType.PLATE);
-    public static final Item NICKEL_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.NICKEL,OCmaterialType.PLATE);
-    public static final Item SILVER_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.SILVER,OCmaterialType.PLATE);
-    public static final Item CENTERL_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.CENTERL,OCmaterialType.PLATE);
-    public static final Item FICTNIUM_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.FICTNIUM,OCmaterialType.PLATE);
-    public static final Item PERMAFROST_PLATE = new ItemSame(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.PERMAFROST,OCmaterialType.PLATE);
+
+    public static final Item COPPER_HOE = new ItemSameHoe((new Item.Properties().group(OCItemGroups.OCTAB)), OCMaterial.COPPER);
+    public static final Item RUBY_HOE = new ItemSameHoe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.RUBY);
+    public static final Item SAPPHIRE_HOE = new ItemSameHoe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SAPPHIRE);
+    public static final Item CENTERL_HOE = new ItemSameHoe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.CENTERL);
+    public static final Item PERMAFROSTL_HOE = new ItemSameHoe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.PERMAFROST);
+    public static final Item SECOND_GRILLED_BRICK_HOE = new ItemSameHoe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SECOND_GRILLED_BRICK);
+
+
+
 
     public static final Item TEST_MORTAR = new ItemSameCraftingTool(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.COPPER,OCmaterialType.MORTAR);
 
@@ -130,12 +139,12 @@ public class MODItems {
     		    NICKEL_POWDER,CENTERL_PLATE,
     		    SILVER_POWDER,FICTNIUM_PLATE,
     		    CENTERL_POWDER,PERMAFROST_PLATE,
-    		    FICTNIUM_POWDER,
-    		    PERMAFROST_POWDER,
-    		    IRON_POWDER,
-    			IRON_GEAR,
-    			COPPER_GEAR,
-    			TIN_GEAR,
+    		    FICTNIUM_POWDER,COPPER_HOE,
+    		    PERMAFROST_POWDER,RUBY_HOE,
+    		    IRON_POWDER,SAPPHIRE_HOE,
+    			IRON_GEAR,CENTERL_HOE,
+    			COPPER_GEAR,PERMAFROSTL_HOE,
+    			TIN_GEAR,SECOND_GRILLED_BRICK_HOE,
     			LEAD_GEAR,
     			NICKEL_GEAR,
     			CENTERL_GEAR,

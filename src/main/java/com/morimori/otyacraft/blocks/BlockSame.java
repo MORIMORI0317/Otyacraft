@@ -1,10 +1,13 @@
 package com.morimori.otyacraft.blocks;
 
+import javax.annotation.Nullable;
+
 import com.morimori.otyacraft.Variable;
 import com.morimori.otyacraft.materia.OCMaterial;
 import com.morimori.otyacraft.materia.OCmaterialType;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraftforge.api.distmarker.Dist;
@@ -36,7 +39,14 @@ public class BlockSame extends Block   {
 
 	      return "block."+this.mateliatype.getMaterialTypeName()+".loacl";
 	   }
-
-
+	   @Nullable
+	   @Override
+	   public net.minecraftforge.common.ToolType getHarvestTool(BlockState state) {
+	      return mateliatype.getToooltyape() ;
+	   }
+	   @Override
+	   public int getHarvestLevel(BlockState state) {
+	      return matelia.getHarvestLevel();
+	   }
 }
 
