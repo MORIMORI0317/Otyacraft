@@ -33,7 +33,9 @@
     "item.powder.loacl": "%s Powder",   
     "item.plate.loacl": "%s Plate",   
     "item.mortar.loacl": "%s Mortar",
+    "item.otyacraft.block_information_detector": "Block Information Detector",
 
+      
        
 	//Blocks
 	"block.otyacraft.test_block": "Test Block",

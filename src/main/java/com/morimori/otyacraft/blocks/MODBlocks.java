@@ -48,7 +48,6 @@ public class MODBlocks {
     public static final Block SILVER_FACTORY_BLOCK = new BlockSame(OCMaterial.SILVER,OCmaterialType.FACTORY_BLOCK,3F, 15F);
     public static final Block LEATHER_STRING_BLOCK = new Block(Block.Properties.create(Material.LEAVES, MaterialColor.BROWN).sound(SoundType.PLANT).hardnessAndResistance(1F, 5F)).setRegistryName(Variable.MODID,"leather_string_block");
     public static final Block LEATHER_BLOCK = new Block(Block.Properties.create(Material.LEAVES, MaterialColor.BROWN).sound(SoundType.PLANT).hardnessAndResistance(1F, 5F)).setRegistryName(Variable.MODID,"leather_block");
-
     public static final Block WILD_TEA_SEEDLINGS = new BlockWildTeaSeedlings(Block.Properties.create(Material.WOOD, MaterialColor.AIR).sound(SoundType.PLANT).hardnessAndResistance(2.5F, 1.0F)).setRegistryName(Variable.MODID,"wild_tea_seedlings");
 
 

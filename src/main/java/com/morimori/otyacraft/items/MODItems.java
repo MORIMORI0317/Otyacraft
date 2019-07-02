@@ -93,7 +93,6 @@ public class MODItems {
     public static final Item CENTERL_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.CENTERL);
     public static final Item PERMAFROSTL_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.PERMAFROST);
     public static final Item SECOND_GRILLED_BRICK_AXE = new ItemSameAxe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SECOND_GRILLED_BRICK);
-
     public static final Item COPPER_HOE = new ItemSameHoe((new Item.Properties().group(OCItemGroups.OCTAB)), OCMaterial.COPPER);
     public static final Item RUBY_HOE = new ItemSameHoe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.RUBY);
     public static final Item SAPPHIRE_HOE = new ItemSameHoe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SAPPHIRE);
@@ -101,8 +100,10 @@ public class MODItems {
     public static final Item PERMAFROSTL_HOE = new ItemSameHoe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.PERMAFROST);
     public static final Item SECOND_GRILLED_BRICK_HOE = new ItemSameHoe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SECOND_GRILLED_BRICK);
 
+    
 
-
+    public static final Item LIGHT_METER = new ItemLightMeter(new Item.Properties().group(OCItemGroups.OCTAB).maxStackSize(1)).setRegistryName(Variable.MODID,"light_meter");
+    public static final Item BLOCK_INFORMATION_DETECTOR = new ItemBlockinformationdetector(new Item.Properties().group(OCItemGroups.OCTAB).maxStackSize(1)).setRegistryName(Variable.MODID,"block_information_detector");
 
     public static final Item TEST_MORTAR = new ItemSameCraftingTool(new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.COPPER,OCmaterialType.MORTAR);
 
@@ -145,8 +146,8 @@ public class MODItems {
     			IRON_GEAR,CENTERL_HOE,
     			COPPER_GEAR,PERMAFROSTL_HOE,
     			TIN_GEAR,SECOND_GRILLED_BRICK_HOE,
-    			LEAD_GEAR,
-    			NICKEL_GEAR,
+    			LEAD_GEAR,LIGHT_METER,
+    			NICKEL_GEAR,BLOCK_INFORMATION_DETECTOR,
     			CENTERL_GEAR,
     			SILVER_GEAR,
     			PERMAFROST_POWDER,

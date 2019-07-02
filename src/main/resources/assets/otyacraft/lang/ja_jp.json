@@ -31,7 +31,9 @@
     "item.powder.loacl": "%sパウダー",  
    	"item.plate.loacl": "%s板",   
     "item.mortar.loacl": "%sのすり鉢",
+    "item.otyacraft.block_information_detector": "ブロック情報検出器",
 
+      
     
 	//Blocks
 	"block.otyacraft.test_block": "テストブロック",
