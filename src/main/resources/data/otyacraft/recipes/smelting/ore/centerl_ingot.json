@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "otyacraft:centerl_ore"
+  },
+  "result": "otyacraft:centerl_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

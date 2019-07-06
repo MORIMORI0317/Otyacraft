@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "otyacraft:block/ore_reactor_core" }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "permafrost_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "otyacraft:permafrost_nugget"
+    }
+  },
+  "result": {
+    "item": "otyacraft:permafrost_ingot"
+  }
+}

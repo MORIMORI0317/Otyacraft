@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+
+    "ZYZ",
+    "#X#",
+    "ZIZ"
+  ],
+  "key": {
+    "#": {
+     "item": "otyacraft:disposable_battery"
+    },
+    "Y": {
+     "item": "otyacraft:lens"
+    },
+    "I": {
+     "item": "otyacraft:analog_meter"
+    },
+    "Z": {
+      "tag": "forge:plates/iron"
+    },
+    "X": {
+     "item": "otyacraft:circuit_board"
+    }
+  },
+  "result": {
+    "item": "otyacraft:light_meter"
+  }
+}

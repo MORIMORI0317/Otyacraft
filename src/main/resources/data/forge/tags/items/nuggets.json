@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:nuggets/centerl",
+    "#forge:nuggets/copper",
+    "#forge:nuggets/fictnium",
+    "#forge:nuggets/lead",
+    "#forge:nuggets/nickel",
+    "#forge:nuggets/permafrost",
+    "#forge:nuggets/silver",
+    "#forge:nuggets/tin"
+  ]
+}

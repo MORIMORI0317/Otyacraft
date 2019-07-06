@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZXZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "tag": "forge:ingots/lead"
+    },
+    "X": {
+      "tag": "forge:gears/lead"
+    }
+  },
+  "result": {
+    "item": "otyacraft:lead_factory_block",
+    "count": 64
+  }
+}

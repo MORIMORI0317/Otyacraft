@@ -9,6 +9,7 @@ import net.minecraft.item.Item;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
@@ -34,13 +35,17 @@ public class Otyacraft
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
+        IEventBus EVENT_BUS = MinecraftForge.EVENT_BUS;
 
-        MinecraftForge.EVENT_BUS.register(this);
+   //     EVENT_BUS.addListener(EventPriority.NORMAL, false, ItemTooltipEvent.class, null);
+
+        EVENT_BUS.register(this);
+
 
 
 		DistExecutor.runWhenOn(Dist.CLIENT, ()->()-> {
 
-			//ItemColorHandler itemColorHandler = new ItemColorHandler();
+
 
 			FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 		});

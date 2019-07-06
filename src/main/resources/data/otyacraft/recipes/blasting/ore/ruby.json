@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "otyacraft:ruby_ore"
+  },
+  "result": "otyacraft:ruby",
+  "experience": 0.7,
+  "cookingtime": 100
+}

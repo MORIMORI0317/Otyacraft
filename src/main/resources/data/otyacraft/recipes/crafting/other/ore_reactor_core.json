@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZX",
+    "X#X",
+    "XZX"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "Z": {
+      "tag": "forge:gems/diamond"
+    },
+    "X": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "result": {
+    "item": "otyacraft:ore_reactor_core"
+  }
+}

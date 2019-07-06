@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YIY",
+    "XZX",
+    "###"
+  ],
+  "key": {
+    "#": {
+     "tag": "forge:dusts/redstone"
+    },
+    "I": {
+      "tag": "forge:nuggets/copper"
+    },
+    "Y": {
+      "tag": "forge:plates/tin"
+    },
+    "Z": {
+      "tag": "forge:plates/centerl"
+    },
+    "X": {
+     "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "item": "otyacraft:circuit_board"
+  }
+}

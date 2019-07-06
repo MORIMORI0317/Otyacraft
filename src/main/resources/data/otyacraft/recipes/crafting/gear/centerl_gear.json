@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZXZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "tag": "forge:nuggets/centerl"
+    },
+    "X": {
+      "tag": "forge:ingots/centerl"
+    }
+  },
+  "result": {
+    "item": "otyacraft:centerl_gear"
+  }
+}

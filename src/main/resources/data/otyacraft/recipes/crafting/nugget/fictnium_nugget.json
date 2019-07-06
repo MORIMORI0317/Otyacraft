@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "otyacraft:fictnium_ingot"
+    }
+  ],
+  "result": {
+    "item": "otyacraft:fictnium_nugget",
+    "count": 9
+  }
+}

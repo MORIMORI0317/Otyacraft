@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZXZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "tag": "forge:nuggets/nickel"
+    },
+    "X": {
+      "tag": "forge:ingots/nickel"
+    }
+  },
+  "result": {
+    "item": "otyacraft:nickel_gear"
+  }
+}

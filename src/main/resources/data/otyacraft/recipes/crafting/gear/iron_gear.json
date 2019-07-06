@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZXZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "tag": "forge:nuggets/iron"
+    },
+    "X": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "otyacraft:iron_gear"
+  }
+}

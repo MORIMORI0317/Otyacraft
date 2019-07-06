@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "otyacraft:nickel_ore"
+  },
+  "result": "otyacraft:nickel_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

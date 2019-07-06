@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "otyacraft:ruby"
+    }
+  },
+  "result": {
+    "item": "otyacraft:ruby_axe"
+  }
+}

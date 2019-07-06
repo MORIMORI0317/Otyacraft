@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+
+    "YYY",
+    "#XX",
+    "YYY"
+  ],
+  "key": {
+    "#": {
+     "item": "otyacraft:radeon_vii"
+    },
+    "Y": {
+      "tag": "forge:gems/sapphire"
+    },
+    "X": {
+     "item": "otyacraft:circuit_board"
+    }
+  },
+  "result": {
+    "item": "otyacraft:radeon_pro_v340"
+  }
+}

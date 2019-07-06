@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "otyacraft:nickel_ingot"
+    }
+  ],
+  "result": {
+    "item": "otyacraft:nickel_nugget",
+    "count": 9
+  }
+}

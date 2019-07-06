@@ -1,10 +1,12 @@
 package com.morimori.otyacraft.items;
 
 import com.morimori.otyacraft.Variable;
+import com.morimori.otyacraft.blocks.MODBlocks;
 import com.morimori.otyacraft.itemgroups.OCItemGroups;
 import com.morimori.otyacraft.materia.OCMaterial;
 import com.morimori.otyacraft.materia.OCmaterialType;
 
+import net.minecraft.item.BlockNamedItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -100,7 +102,8 @@ public class MODItems {
     public static final Item PERMAFROSTL_HOE = new ItemSameHoe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.PERMAFROST);
     public static final Item SECOND_GRILLED_BRICK_HOE = new ItemSameHoe(new Item.Properties().group(OCItemGroups.OCTAB), OCMaterial.SECOND_GRILLED_BRICK);
 
-    
+    public static final Item TEA_SEED = new BlockNamedItem(MODBlocks.TEA_CROP, new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID,"tea_seed");
+
 
     public static final Item LIGHT_METER = new ItemLightMeter(new Item.Properties().group(OCItemGroups.OCTAB).maxStackSize(1)).setRegistryName(Variable.MODID,"light_meter");
     public static final Item BLOCK_INFORMATION_DETECTOR = new ItemBlockinformationdetector(new Item.Properties().group(OCItemGroups.OCTAB).maxStackSize(1)).setRegistryName(Variable.MODID,"block_information_detector");
@@ -149,7 +152,7 @@ public class MODItems {
     			LEAD_GEAR,LIGHT_METER,
     			NICKEL_GEAR,BLOCK_INFORMATION_DETECTOR,
     			CENTERL_GEAR,
-    			SILVER_GEAR,
+    			SILVER_GEAR,TEA_SEED,
     			PERMAFROST_POWDER,
     			TEA_LEAVES_POWDER,
     			TEA_LEAVES,

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZXZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "tag": "forge:ingots/copper"
+    },
+    "X": {
+      "tag": "forge:gears/copper"
+    }
+  },
+  "result": {
+    "item": "otyacraft:copper_factory_block",
+    "count": 64
+  }
+}

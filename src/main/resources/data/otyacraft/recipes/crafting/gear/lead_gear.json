@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZXZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "tag": "forge:nuggets/lead"
+    },
+    "X": {
+      "tag": "forge:ingots/lead"
+    }
+  },
+  "result": {
+    "item": "otyacraft:lead_gear"
+  }
+}

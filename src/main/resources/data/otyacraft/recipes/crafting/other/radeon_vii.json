@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+
+    "ZZY",
+    "#XX",
+    "ZZZ"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gears/iron"
+    },
+    "Y": {
+      "tag": "forge:gems/ruby"
+    },
+    "Z": {
+      "tag": "forge:plates/iron"
+    },
+    "X": {
+     "item": "otyacraft:circuit_board"
+    }
+  },
+  "result": {
+    "item": "otyacraft:radeon_vii"
+  }
+}

@@ -31,6 +31,7 @@ public class ItemLightMeter  extends Item {
 		          p_220045_0_.sendBreakAnimation(EquipmentSlotType.MAINHAND);
 		      });
 
+
 		      playerIn.getCooldownTracker().setCooldown(this, 10);
 
 		      playerIn.sendStatusMessage(this.gettrans(worldIn,playerIn), true);

@@ -4,16 +4,29 @@ import com.morimori.otyacraft.Variable;
 
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
+import mezz.jei.api.registration.IRecipeCategoryRegistration;
 import mezz.jei.api.registration.IRecipeRegistration;
 import net.minecraft.util.ResourceLocation;
 @JeiPlugin
 public class OCJEIPlugin implements IModPlugin {
 
 	@Override
+	public void registerCategories(IRecipeCategoryRegistration registration) {
+/*		IJeiHelpers jeiHelpers = registration.getJeiHelpers();
+		IGuiHelper guiHelper = jeiHelpers.getGuiHelper();
+		registration.addRecipeCategories( new OreReactorCategory(guiHelper));
+*/
+    }
+
+	@Override
 	public void registerRecipes(IRecipeRegistration registration)
 	{
 		JEIInfo.registerInfo(registration);
+
 	}
+
+
+
 
 
 	@Override

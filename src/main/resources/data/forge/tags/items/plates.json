@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:plates/centerl",
+    "#forge:plates/copper",
+    "#forge:plates/fictnium",
+    "#forge:plates/iron",
+    "#forge:plates/lead",
+    "#forge:plates/nickel",
+    "#forge:plates/permafrost",
+    "#forge:plates/silver",
+    "#forge:plates/tin"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "otyacraft:centerl_ingot"
+    }
+  },
+  "result": {
+    "item": "otyacraft:centerl_block"
+  }
+}

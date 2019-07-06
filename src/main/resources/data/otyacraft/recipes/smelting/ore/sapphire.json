@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "otyacraft:sapphire_ore"
+  },
+  "result": "otyacraft:sapphire",
+  "experience": 0.7,
+  "cookingtime": 200
+}

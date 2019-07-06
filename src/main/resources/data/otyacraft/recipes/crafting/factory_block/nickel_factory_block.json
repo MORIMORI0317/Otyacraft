@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZXZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "tag": "forge:ingots/nickel"
+    },
+    "X": {
+      "tag": "forge:gears/nickel"
+    }
+  },
+  "result": {
+    "item": "otyacraft:nickel_factory_block",
+    "count": 64
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:gears/centerl",
+    "#forge:gears/copper",
+    "#forge:gears/iron",
+    "#forge:gears/lead",
+    "#forge:gears/nickel",
+    "#forge:gears/silver",
+    "#forge:gears/tin"
+  ]
+}

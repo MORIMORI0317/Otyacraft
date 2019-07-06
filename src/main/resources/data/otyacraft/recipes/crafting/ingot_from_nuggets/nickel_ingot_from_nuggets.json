@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "nickel_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "otyacraft:nickel_nugget"
+    }
+  },
+  "result": {
+    "item": "otyacraft:nickel_ingot"
+  }
+}

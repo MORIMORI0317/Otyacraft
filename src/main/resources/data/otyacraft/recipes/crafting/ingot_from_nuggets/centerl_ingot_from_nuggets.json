@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "centerl_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "otyacraft:centerl_nugget"
+    }
+  },
+  "result": {
+    "item": "otyacraft:centerl_ingot"
+  }
+}

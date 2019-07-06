@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "lead_ingot",
+  "ingredients": [
+    {
+      "item": "otyacraft:lead_block"
+    }
+  ],
+  "result": {
+    "item": "otyacraft:lead_ingot",
+    "count": 9
+  }
+}

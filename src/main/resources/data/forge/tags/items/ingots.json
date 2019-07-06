@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ingots/centerl",
+    "#forge:ingots/copper",
+    "#forge:ingots/fictnium",
+    "#forge:ingots/lead",
+    "#forge:ingots/nickel",
+    "#forge:ingots/permafrost",
+    "#forge:ingots/second_grilled_brick",
+    "#forge:ingots/silver",
+    "#forge:ingots/tin"
+  ]
+}

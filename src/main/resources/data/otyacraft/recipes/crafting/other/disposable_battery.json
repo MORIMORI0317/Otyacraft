@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZX",
+    "X#X",
+    "XZX"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:dusts/redstone"
+    },
+    "Z": {
+      "tag": "forge:nuggets/nickel"
+    },
+    "X": {
+      "tag": "forge:plates/lead"
+    }
+  },
+  "result": {
+    "item": "otyacraft:disposable_battery"
+  }
+}

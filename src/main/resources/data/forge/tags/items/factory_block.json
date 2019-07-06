@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:factory_block/centerl",
+    "#forge:factory_block/copper",
+    "#forge:factory_block/lead",
+    "#forge:factory_block/nickel",
+    "#forge:factory_block/ruby",
+    "#forge:factory_block/sapphire",
+    "#forge:factory_block/silver",
+    "#forge:factory_block/redstone",    
+    "#forge:factory_block/coal",
+    "#forge:factory_block/diamond",
+    "#forge:factory_block/emerald",
+    "#forge:factory_block/gold",
+    "#forge:factory_block/iron",
+    "#forge:factory_block/lapis",
+    "#forge:factory_block/quartz",
+    "#forge:factory_block/tin"
+  ]
+}

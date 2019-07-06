@@ -34,7 +34,7 @@
     "item.plate.loacl": "%s Plate",   
     "item.mortar.loacl": "%s Mortar",
     "item.otyacraft.block_information_detector": "Block Information Detector",
-
+    "item.otyacraft.tea_seed": "Tea Seed",
       
        
 	//Blocks
@@ -49,7 +49,7 @@
 	"block.otyacraft.permafrost_grass": "Permafrost Grass",
 	"block.otyacraft.permafrost": "Permafrost",
 	"block.otyacraft.wild_tea_seedlings": "Wild Tea Seedlings",
-	"block.otyacraft.yukdrasil_sapling": "Yukdrasil Sapling",
+	"block.otyacraft.ore_reactor_core": "Ore Reactor Core",
 	
 	
 	//material

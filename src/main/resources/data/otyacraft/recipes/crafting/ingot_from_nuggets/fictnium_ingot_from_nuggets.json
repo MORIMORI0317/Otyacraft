@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fictnium_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "otyacraft:fictnium_nugget"
+    }
+  },
+  "result": {
+    "item": "otyacraft:fictnium_ingot"
+  }
+}

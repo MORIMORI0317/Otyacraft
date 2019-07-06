@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+
+    "ZYZ",
+    "#X#",
+    "ZIZ"
+  ],
+  "key": {
+    "#": {
+     "item": "otyacraft:disposable_battery"
+    },
+    "Y": {
+     "item": "otyacraft:sapphire_hoe"
+    },
+    "I": {
+     "item": "minecraft:ender_pearl"
+    },
+    "Z": {
+      "tag": "forge:plates/centerl"
+    },
+    "X": {
+     "item": "otyacraft:radeon_vii"
+    }
+  },
+  "result": {
+    "item": "otyacraft:block_information_detector"
+  }
+}

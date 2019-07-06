@@ -39,6 +39,10 @@ public class BlockSame extends Block   {
 
 	      return "block."+this.mateliatype.getMaterialTypeName()+".loacl";
 	   }
+
+
+
+
 	   @Nullable
 	   @Override
 	   public net.minecraftforge.common.ToolType getHarvestTool(BlockState state) {

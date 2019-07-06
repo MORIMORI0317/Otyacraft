@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZXZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "tag": "forge:nuggets/tin"
+    },
+    "X": {
+      "tag": "forge:ingots/tin"
+    }
+  },
+  "result": {
+    "item": "otyacraft:tin_gear"
+  }
+}

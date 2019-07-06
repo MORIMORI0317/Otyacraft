@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "otyacraft:second_grilled_brick"
+    }
+  },
+  "result": {
+    "item": "otyacraft:sgb_sword"
+  }
+}

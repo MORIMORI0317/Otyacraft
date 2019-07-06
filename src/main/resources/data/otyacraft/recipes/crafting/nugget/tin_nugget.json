@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "otyacraft:tin_ingot"
+    }
+  ],
+  "result": {
+    "item": "otyacraft:tin_nugget",
+    "count": 9
+  }
+}

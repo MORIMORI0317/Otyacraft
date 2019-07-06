@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+
+    "ZXZ",
+    "Z#Z"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:dusts/redstone"
+    },
+    "Z": {
+      "tag": "forge:plates/iron"
+    },
+    "X": {
+     "item": "otyacraft:needle"
+    }
+  },
+  "result": {
+    "item": "otyacraft:analog_meter"
+  }
+}

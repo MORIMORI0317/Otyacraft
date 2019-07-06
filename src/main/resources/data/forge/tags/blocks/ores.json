@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ores/centerl",
+    "#forge:ores/copper",
+    "#forge:ores/lead",
+    "#forge:ores/nickel",
+    "#forge:ores/ruby",
+    "#forge:ores/sapphire",
+    "#forge:ores/silver",
+    "#forge:ores/tin"
+  ]
+}

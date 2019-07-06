@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "centerl_ingot",
+  "ingredients": [
+    {
+      "item": "otyacraft:centerl_block"
+    }
+  ],
+  "result": {
+    "item": "otyacraft:centerl_ingot",
+    "count": 9
+  }
+}

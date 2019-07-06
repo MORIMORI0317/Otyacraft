@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZXZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "tag": "forge:gems/emerald"
+    },
+    "X": {
+      "tag": "forge:gears/iron"
+    }
+  },
+  "result": {
+    "item": "otyacraft:emerald_factory_block",
+    "count": 64
+  }
+}

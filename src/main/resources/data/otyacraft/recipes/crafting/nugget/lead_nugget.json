@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "otyacraft:lead_ingot"
+    }
+  ],
+  "result": {
+    "item": "otyacraft:lead_nugget",
+    "count": 9
+  }
+}

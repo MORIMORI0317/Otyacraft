@@ -23,6 +23,8 @@ public class MODBlocks {
     public static final Block TIN_ORE = new BlockSame(OCMaterial.TIN,OCmaterialType.ORE,3F, 15F);
     public static final Block CENTERL_ORE = new BlockSame(OCMaterial.CENTERL,OCmaterialType.ORE,5F, 30F);
     public static final Block SILVER_ORE = new BlockSame(OCMaterial.SILVER,OCmaterialType.ORE,3F, 15F);
+    public static final Block RUBY_ORE = new BlockSame(OCMaterial.RUBY,OCmaterialType.ORE,3F, 15F);
+    public static final Block SAPPHIRE_ORE = new BlockSame(OCMaterial.SAPPHIRE,OCmaterialType.ORE,3F, 15F);
     public static final Block COPPER_BLOCK = new BlockSame(OCMaterial.COPPER,OCmaterialType.BLOCK,3F, 15F);
     public static final Block LEAD_BLOCK = new BlockSame(OCMaterial.LEAD,OCmaterialType.BLOCK,3F, 15F);
     public static final Block NICKEL_BLOCK = new BlockSame(OCMaterial.NICKEL,OCmaterialType.BLOCK,3F, 15F);
@@ -50,6 +52,11 @@ public class MODBlocks {
     public static final Block LEATHER_BLOCK = new Block(Block.Properties.create(Material.LEAVES, MaterialColor.BROWN).sound(SoundType.PLANT).hardnessAndResistance(1F, 5F)).setRegistryName(Variable.MODID,"leather_block");
     public static final Block WILD_TEA_SEEDLINGS = new BlockWildTeaSeedlings(Block.Properties.create(Material.WOOD, MaterialColor.AIR).sound(SoundType.PLANT).hardnessAndResistance(2.5F, 1.0F)).setRegistryName(Variable.MODID,"wild_tea_seedlings");
 
+    public static final Block TEA_CROP = new BlockTeaCrops(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.PLANT).hardnessAndResistance(0, 0)).setRegistryName(Variable.MODID,"tea_crop");
+
+    public static final Block ORE_REACTOR_CORE = new OreReactorCoreBlock(Block.Properties.create(Material.IRON, MaterialColor.STONE).sound(SoundType.LANTERN).hardnessAndResistance(5F, 10F)).setRegistryName(Variable.MODID,"ore_reactor_core");
+
+
 
     @SubscribeEvent
     public static void registerBlock(RegistryEvent.Register<Block> blocks) {
@@ -57,8 +64,8 @@ public class MODBlocks {
     	blocks.getRegistry().registerAll(
 
     			TEST,
-    			SECOND_GRILLED_BRICK_BLOCK,
-    			COPPER_ORE,
+    			SECOND_GRILLED_BRICK_BLOCK,RUBY_ORE,
+    			COPPER_ORE,SAPPHIRE_ORE,
     			LEAD_ORE,
     			NICKEL_ORE,
     			TIN_ORE,
@@ -89,7 +96,9 @@ public class MODBlocks {
     			CENTERL_BLOCK,
     			SILVER_BLOCK,
     			FICTNIUM_BLOCK,
-    			WILD_TEA_SEEDLINGS
+    			WILD_TEA_SEEDLINGS,
+    			TEA_CROP,
+    			ORE_REACTOR_CORE
     			);
     }
 
@@ -105,6 +114,10 @@ public class MODBlocks {
            			  new BlockItem(LEATHER_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID, "leather_block"),
            			  new BlockItem(WILD_TEA_SEEDLINGS, new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID, "wild_tea_seedlings"),
 
+           			  new BlockItem(ORE_REACTOR_CORE, new Item.Properties().group(OCItemGroups.OCTAB)).setRegistryName(Variable.MODID, "ore_reactor_core"),
+
+           			  new ItemBlockSame(RUBY_ORE, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.RUBY,OCmaterialType.ORE),
+           			  new ItemBlockSame(SAPPHIRE_ORE, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.SAPPHIRE,OCmaterialType.ORE),
 
 
            			  new ItemBlockSame(COPPER_ORE, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.COPPER,OCmaterialType.ORE),

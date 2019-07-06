@@ -32,7 +32,9 @@
    	"item.plate.loacl": "%s板",   
     "item.mortar.loacl": "%sのすり鉢",
     "item.otyacraft.block_information_detector": "ブロック情報検出器",
-
+    "item.otyacraft.tea_seed": "茶の種",
+      
+  
       
     
 	//Blocks
@@ -48,7 +50,8 @@
 	"block.otyacraft.permafrost": "永久凍土",
 	"block.factory_block.loacl": "%sの工場ブロック",
 	"block.otyacraft.wild_tea_seedlings": "野生の茶苗",
-	"block.otyacraft.yukdrasil_sapling": "ユクドラシルの苗木",
+	"block.otyacraft.ore_reactor_core": "鉱石リアクターコア",
+	
 	
 	//material
 	"material.test": "テスト",

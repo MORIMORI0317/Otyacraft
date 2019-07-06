@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZX",
+    "Z#Z",
+    "XZX"
+  ],
+  "key": {
+    "#": {
+      "item": "otyacraft:needle"
+    },
+    "Z": {
+      "item": "minecraft:string"
+    },
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "otyacraft:leather_string_block"
+  }
+}
