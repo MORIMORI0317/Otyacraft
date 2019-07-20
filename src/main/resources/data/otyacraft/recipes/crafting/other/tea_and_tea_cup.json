@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z",
+    "#"
+  ],
+  "key": {
+    "Z": {
+      "item": "otyacraft:tea_leaves_powder"
+    },
+    "#": {
+      "item": "otyacraft:tea_cup"
+    }
+  },
+  "result": {
+    "item": "otyacraft:tea_and_tea_cup"
+  }
+}

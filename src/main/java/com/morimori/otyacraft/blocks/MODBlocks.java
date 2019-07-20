@@ -51,10 +51,10 @@ public class MODBlocks {
     public static final Block LEATHER_STRING_BLOCK = new Block(Block.Properties.create(Material.LEAVES, MaterialColor.BROWN).sound(SoundType.PLANT).hardnessAndResistance(1F, 5F)).setRegistryName(Variable.MODID,"leather_string_block");
     public static final Block LEATHER_BLOCK = new Block(Block.Properties.create(Material.LEAVES, MaterialColor.BROWN).sound(SoundType.PLANT).hardnessAndResistance(1F, 5F)).setRegistryName(Variable.MODID,"leather_block");
     public static final Block WILD_TEA_SEEDLINGS = new BlockWildTeaSeedlings(Block.Properties.create(Material.WOOD, MaterialColor.AIR).sound(SoundType.PLANT).hardnessAndResistance(2.5F, 1.0F)).setRegistryName(Variable.MODID,"wild_tea_seedlings");
-
     public static final Block TEA_CROP = new BlockTeaCrops(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.PLANT).hardnessAndResistance(0, 0)).setRegistryName(Variable.MODID,"tea_crop");
-
     public static final Block ORE_REACTOR_CORE = new OreReactorCoreBlock(Block.Properties.create(Material.IRON, MaterialColor.STONE).sound(SoundType.LANTERN).hardnessAndResistance(5F, 10F)).setRegistryName(Variable.MODID,"ore_reactor_core");
+
+    public static final Block BRICKS_BLAST_FURNACE = new NomalBlastFurnaceBlock(Block.Properties.create(Material.CORAL, MaterialColor.STONE).sound(SoundType.STONE).hardnessAndResistance(5F, 10F)).setRegistryName(Variable.MODID,"bricks_blast_furnace");
 
 
 
@@ -98,7 +98,8 @@ public class MODBlocks {
     			FICTNIUM_BLOCK,
     			WILD_TEA_SEEDLINGS,
     			TEA_CROP,
-    			ORE_REACTOR_CORE
+    			ORE_REACTOR_CORE,
+    			BRICKS_BLAST_FURNACE
     			);
     }
 
@@ -149,8 +150,9 @@ public class MODBlocks {
            			  new ItemBlockSame(NICKEL_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.NICKEL,OCmaterialType.BLOCK),
            			  new ItemBlockSame(LEAD_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.LEAD,OCmaterialType.BLOCK),
            			  new ItemBlockSame(COPPER_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.COPPER,OCmaterialType.BLOCK),
-           			  new ItemBlockSame(FICTNIUM_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.FICTNIUM,OCmaterialType.BLOCK)
+           			  new ItemBlockSame(FICTNIUM_BLOCK, new Item.Properties().group(OCItemGroups.OCTAB),OCMaterial.FICTNIUM,OCmaterialType.BLOCK),
 
+          			  new BlockItem(BRICKS_BLAST_FURNACE, new Item.Properties()).setRegistryName(Variable.MODID, "bricks_blast_furnace")
 
 
 

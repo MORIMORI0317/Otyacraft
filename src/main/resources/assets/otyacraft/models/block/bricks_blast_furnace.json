@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "otyacraft:blocks/bricks_blast_furnace_up",
+        "bottom": "block/bricks",
+        "front": "otyacraft:blocks/bricks_blast_furnace_top",
+        "side": "block/bricks"
+    }
+}

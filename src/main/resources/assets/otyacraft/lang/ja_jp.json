@@ -77,7 +77,9 @@
 	//JEI_Info
     "gui.otyacraft.jei_info.second_grilled_brick": "お茶クラフトで初めて追加されたアイテム。",   
     "gui.otyacraft.jei_info.radeon_vii": "ネタアイテム。",   
-     
+	"gui.otyacraft.jei_info.plate": "%sを%sで加工する",   
+	"gui.otyacraft.jei_info.ore_reactor_core": "鉱石を生成する装置",   
+  
 	//banner
 	"block.minecraft.banner.yunomi.black": "黒色の湯飲み",
 	"block.minecraft.banner.yunomi.red": "赤色の湯飲み",

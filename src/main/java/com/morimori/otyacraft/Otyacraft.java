@@ -37,8 +37,6 @@ public class Otyacraft
 
         IEventBus EVENT_BUS = MinecraftForge.EVENT_BUS;
 
-   //     EVENT_BUS.addListener(EventPriority.NORMAL, false, ItemTooltipEvent.class, null);
-
         EVENT_BUS.register(this);
 
 

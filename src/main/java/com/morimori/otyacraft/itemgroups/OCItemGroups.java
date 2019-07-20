@@ -19,7 +19,7 @@ public class OCItemGroups extends ItemGroup {
     @OnlyIn(Dist.CLIENT)
 	public ItemStack createIcon() {
 
-		return  new ItemStack(MODItems.TEST);
+		return  new ItemStack(MODItems.TEA_AND_TEA_CUP);
 	};
 
 	   public boolean hasSearchBar() {

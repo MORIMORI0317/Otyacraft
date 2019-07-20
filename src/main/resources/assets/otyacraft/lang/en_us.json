@@ -76,7 +76,10 @@
 	"material.sgb": "Second Grilled Brick",
 	//JEI_Info
     "gui.otyacraft.jei_info.second_grilled_brick": "For the first time added item in otyacraft.",   
-    "gui.otyacraft.jei_info.radeon_vii": "neta item。",   
+    "gui.otyacraft.jei_info.radeon_vii": "neta item",   
+	"gui.otyacraft.jei_info.plate": "Make from %s at the %s",   
+	"gui.otyacraft.jei_info.ore_reactor_core": "Equipment for producing ore",   
+  
      
 	//banner
 	"block.minecraft.banner.yunomi.black": "Black Yunomi",

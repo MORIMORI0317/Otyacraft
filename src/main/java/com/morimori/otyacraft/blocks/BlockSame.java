@@ -8,6 +8,7 @@ import com.morimori.otyacraft.materia.OCmaterialType;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.client.resources.I18n;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraftforge.api.distmarker.Dist;
@@ -37,7 +38,7 @@ public class BlockSame extends Block   {
 	   public String getTranslationKey() {
 
 
-	      return "block."+this.mateliatype.getMaterialTypeName()+".loacl";
+	      return I18n.format("block."+this.mateliatype.getMaterialTypeName()+".loacl",I18n.format(matelia.getTranslationKey().getString()));
 	   }
 
 
